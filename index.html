@@ -10,7 +10,7 @@
     
 </head>
 <body class="box-border font-main text-body">
-    <header class="bg-primary-700 h-screen overflow-hidden md:rounded-b-[40px] rounded-b-[20px]" id="header">
+    <header class="bg-primary-700 overflow-hidden md:rounded-b-[40px] rounded-b-[20px]" id="header">
         <div class="container">
             <div class="flex flex-row justify-between  h-36 pt-8">
                 <div>
@@ -44,18 +44,18 @@
                 </div>
             </div>
         </div>
-        <div class="hero flex justify-start items-start">
-            <div class="text-white flex flex-col gap-5 max-w-[650px] mx-[15px] mt-5 sm:mx-12 sm:mt-12 md:mx-16 lg:mt-5 xl:mt-8">
+        <div class="hero flex justify-start items-start 2xl:container">
+            <div class="text-white flex flex-col gap-5 lg:max-w-[530px] xl:max-w-[650px] mx-[15px] mt-5 sm:mx-12 sm:mt-8 md:mx-28 lg:mx-16 lg:mt-5">
                 <p class="text-sm font-bold bg-slate-600 px-4 py-2.5 w-fit rounded-lg">ID Al. Solutions</p>
                 <div>
-                    <h1 class="font-bold text-[27px] sm:text-[40px]">Synergy of Expertise</h1>
-                    <h1 class="font-bold text-[27px] sm:text-[40px]">Integrity in Partnership</h1>
-                    <h1 class="font-bold text-[27px] sm:text-[40px]">Ideal Solutions - as a Standard</h1>
+                    <h1 class="font-bold text-[27px] sm:text-[35px] xl:text-[40px]">Synergy of Expertise</h1>
+                    <h1 class="font-bold text-[27px] sm:text-[35px] xl:text-[40px]">Integrity in Partnership</h1>
+                    <h1 class="font-bold text-[27px] sm:text-[35px] xl:text-[40px]">Ideal Solutions - as a Standard</h1>
                 </div>
                 <p class="text-lg font-light my-3">Experienced team of innovators and developers bringing new products to life</p>
-                <div class="flex gap-5">
-                    <button class="px-7 py-3 capitalize font-semibold text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">Get in touch</button>
-                    <button class="px-7 py-3 capitalize font-semibold text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hover:bg-secondary-100 hover:border-secondary-100 ">Services</button>
+                <div class="flex gap-3 sm:gap-5 mb-10 lg:mb-7">
+                    <button class="px-5 py-2 sm:px-7 sm:py-3 capitalize sm:font-semibold sm:text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">Get in touch</button>
+                    <button class="px-5 py-2 sm:px-7 sm:py-3 capitalize sm:font-semibold sm:text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hover:bg-secondary-100 hover:border-secondary-100 ">Services</button>
                 </div>
             </div>
 
@@ -491,27 +491,20 @@
     <style>
         .hero{
             background-image: url('images/Group 11586.png');
-            height: calc(100vh - 144px);
             background-position: bottom right; 
             background-repeat: no-repeat;
-            
+            width: calc(100vw + 150px);
         }
         @media(max-width: 1279px) {
             .hero{
-                background-image: url('images/back-tab.png');
+                background-position: 300px; 
+                width: calc(100vw + 150px);
                 
             }
         }
-        @media(min-width: 1280px) {
+        @media(max-width: 1023px) {
             .hero{
-                width: calc(100vw + 110px);
-                height: calc(100vh - 100px);
-                
-            }
-        }
-        @media(max-width: 639px) {
-            .hero{
-                background-image: url('images/back-mob.png');
+                background-image: none;
                 width: 100vw;
             }
         }

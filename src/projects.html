@@ -1,455 +1,1220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ID Al. Solutions</title>
-    <link rel="stylesheet" href="./../dist/output.css">
-    <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="./../dist/all.min.css" />
-    
-</head>
-<body class="box-border font-main text-body bg-neutral-50">
-    <header class="bg-primary-700 md:rounded-b-[40px] rounded-b-[20px]" id="header">
-        <div class="container">
-            <div class="flex flex-row justify-between  h-36 pt-8">
-                <div>
-                    <a class="flex  gap-3 items-center justify-between" href="../index.html">
-                        <img src="../images/Vector.png" alt="">
-                        <img src="../images/Clip path group.png" alt="">
-                    </a>
-                </div>
-                <div class="capitalize text-white font-medium text-lg justify-between gap-10 mt-5 hidden lg:flex">
-                    <a class="hover:text-secondary-100" href="services.html">services</a>
-                    <div class="block">
-                        <button class="dropdown-btn inline-block hover:text-secondary-100">Products
-                            <i class="fa fa-caret-down ml-5 "></i>
-                        </button>
-                        <div class="dropdown-container hidden">
-                            <a class="hover:text-secondary-100" href="#">Dr. GyneCom</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ID Al. Solutions</title>
+        <link rel="stylesheet" href="./../dist/output.css" />
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="./../dist/all.min.css" />
+    </head>
+    <body class="box-border font-main text-body bg-neutral-50">
+        <header
+            class="bg-primary-700 md:rounded-b-[40px] rounded-b-[20px]"
+            id="header"
+        >
+            <div class="container">
+                <div class="flex flex-row justify-between h-36 pt-8">
+                    <div>
+                        <a
+                            class="flex gap-3 items-center justify-between"
+                            href="../index.html"
+                        >
+                            <img src="../images/Vector.png" alt="" />
+                            <img src="../images/Clip path group.png" alt="" />
+                        </a>
+                    </div>
+                    <div
+                        class="capitalize text-white font-medium text-lg justify-between gap-10 mt-5 hidden lg:flex"
+                    >
+                        <a class="hover:text-secondary-100" href="services.html"
+                            >services</a
+                        >
+                        <div class="block">
+                            <button
+                                class="dropdown-btn inline-block hover:text-secondary-100"
+                            >
+                                Products
+                                <i class="fa fa-caret-down ml-5"></i>
+                            </button>
+                            <div class="dropdown-container hidden">
+                                <a class="hover:text-secondary-100" href="#"
+                                    >Dr. GyneCom</a
+                                >
+                            </div>
+                        </div>
+                        <a class="hover:text-secondary-100" href="aboutus.html"
+                            >about us</a
+                        >
+                        <a
+                            class="hover:text-secondary-100"
+                            href="resources.html"
+                            >resources</a
+                        >
+                    </div>
+                    <div class="justify-between flex sm:gap-3 sm:mt-1">
+                        <div>
+                            <button
+                                class="px-7 py-3 capitalize font-semibold text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hidden sm:block hover:bg-secondary-100 hover:border-secondary-100"
+                            >
+                                contact us
+                            </button>
+                        </div>
+                        <div class="text-white text-3xl mt-5 sm:mt-3 lg:hidden">
+                            <i class="fa-solid fa-bars"></i>
                         </div>
                     </div>
-                    <a class="hover:text-secondary-100" href="aboutus.html">about us</a>
-                    <a class="hover:text-secondary-100" href="resources.html">resources</a>
-                </div>
-                <div class=" justify-between flex sm:gap-3 sm:mt-1">
-                    <div>
-                        <button class="px-7 py-3 capitalize font-semibold text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hidden sm:block hover:bg-secondary-100 hover:border-secondary-100 ">
-                            contact us
-                        </button>
-                    </div>
-                    <div class="text-white text-3xl mt-5 sm:mt-3 lg:hidden">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>               
                 </div>
             </div>
-        </div>
-        <div class="relative h-[calc(100vh-144px)] overflow-x-clip">
-            <div class="text-white flex flex-col gap-7 sm:max-w-[450px] md:max-w-[650px] ml-[15px] md:ml-16 xl:justify-center xl:text-center xl:mx-auto">
-                <div class="flex gap-[15px] text-white text-base xl:hidden z-20">
-                    <a class="font-medium capitalize opacity-50 hover:opacity-100" href="../index.html">home</a>
+            <div
+                class="relative 2xl:container overflow-x-clip flex flex-col gap-2 text-white"
+            >
+                <div
+                    class="flex gap-[15px] text-base xl:hidden z-20 ml-[15px] md:ml-16"
+                >
+                    <a
+                        class="font-medium capitalize opacity-50 hover:opacity-100"
+                        href="../index.html"
+                        >home</a
+                    >
                     <div><i class="fa fa-caret-down -rotate-90"></i></div>
                     <a class="font-medium capitalize" href="">about us</a>
                 </div>
-                <div class="flex flex-wrap gap-[9px] xl:justify-center mt-16 md:mt-20 lg:mt-16">
-                    <p class="text-sm font-bold bg-slate-600 px-4 py-2.5 w-fit rounded-lg uppercase z-20">UX/UI</p>
-                    <p class="text-sm font-bold bg-slate-600 px-4 py-2.5 w-fit rounded-lg uppercase z-20">End-to-end Development</p>
+                <div
+                    class="sm:max-w-[450px] md:max-w-[650px] justify-center text-center mx-auto flex flex-col gap-5"
+                >
+                    <div
+                        class="flex flex-wrap gap-[9px] justify-center mt-16 md:mt-20 lg:mt-16"
+                    >
+                        <p
+                            class="text-sm font-bold bg-slate-600 px-4 py-2.5 w-fit rounded-lg uppercase z-20"
+                        >
+                            UX/UI
+                        </p>
+                        <p
+                            class="text-sm font-bold bg-slate-600 px-4 py-2.5 w-fit rounded-lg uppercase z-20"
+                        >
+                            End-to-end Development
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-6 mb-36">
+                        <h1
+                            class="font-bold md:text-6xl text-[45px] capitalize z-20"
+                        >
+                            Real Estate Portal
+                        </h1>
+                        <p class="text-base md:text-lg my-3 z-20">
+                            A company of dedicated and experienced individuals,
+                            aimed at creating and delivering the ideality of
+                            software solutions
+                        </p>
+                    </div>
                 </div>
-                <div class="flex flex-col gap-6">
-                    <h1 class="font-bold  md:text-6xl text-[45px] capitalize z-20">Real Estate Portal</h1>
-                    <p class="text-base md:text-lg my-3 z-20">A company of dedicated and experienced individuals, aimed at creating and delivering the ideality of software solutions</p>
+                <img
+                    class="hidden lg:block absolute -right-32 w-72 -bottom-32 xl:right-40 xl:w-80"
+                    src="../images/Rectangle 85.png"
+                    alt=""
+                />
+                <img
+                    class="hidden lg:block absolute -bottom-36 left-10 w-36 xl:left-72 xl:w-44 xl:-bottom-48"
+                    src="../images/Rectangle 90.png"
+                    alt=""
+                />
+                <img
+                    class="hidden lg:block absolute left-[50%] -translate-x-[50%] -bottom-24 w-72 xl:w-96 xl:-bottom-40"
+                    src="../images/Rectangle 85.png"
+                    alt=""
+                />
+                <img
+                    class="hidden lg:block absolute right-[50%] -translate-x-[50%] left-[45%] w-44 -bottom-56 xl:w-52 xl:-bottom-[280px]"
+                    src="../images/Rectangle 91.png"
+                    alt=""
+                />
+                <img
+                    class="hidden xl:block absolute -bottom-3 w-52 left-24"
+                    src="../images/Rectangle 91.png"
+                    alt=""
+                />
+            </div>
+        </header>
+        <section
+            class="pt-[80px] md:pt-[120px] lg:pt-[380px] container overflow-hidden"
+        >
+            <div class="flex flex-col gap-12 sm:px-7 lg:px-20 xl:px-40">
+                <div class="font-bold">
+                    <p class="text-sm uppercase">about the project</p>
+                    <h1 class="text-3xl mt-[14px] sm:text-[35px] capitalize">
+                        <span class="text-primary-100">Overview</span>
+                    </h1>
+                </div>
+                <div
+                    class="flex flex-col gap-[25px] py-[40px] md:py-[50px] pl-[20px] md:pl-[48px] xl:pl-[55px] pr-[35px] md:pr-[48px] xl:pr-[70px] bg-slate-100 rounded-[10px] border-l-[12px] border-sky-200"
+                >
+                    <p class="text-base md:text-lg text-neutral-600">
+                        In December of 2019 OSDB team was recommended to our
+                        client to work on a complex SaaS portal for the US
+                        market.
+                    </p>
+                    <p class="text-base md:text-lg text-neutral-600">
+                        Having made first touches the client has prepared an RFP
+                        document which outlined core features and business
+                        requirements they’d like to be delivered.
+                    </p>
+                    <p class="text-base md:text-lg text-neutral-600">
+                        OSDB team has investigated the requirement and built up
+                        a roadmap for the project delivery for the upcoming 6
+                        months starting from the design & investigation stage.
+                    </p>
+                    <p class="text-base md:text-lg text-neutral-600">
+                        In 6 months the first version of the platform was
+                        released for the first users.
+                    </p>
+                </div>
+                <div class="relative mt-7 h-[470px] w-full md:h-72 lg:h-80">
+                    <img
+                        class="absolute w-[280px] bottom-0 -right-20 md:right-[30%] md:top-16 lg:w-[300px] xl:w-[320px]"
+                        src="../images/Rectangle 85.png"
+                        alt=""
+                    />
+                    <img
+                        src="../images/Rectangle 90.png"
+                        alt=""
+                        class="absolute top-0 left-2 w-36 md:left-5 lg:w-40 xl:w-44 xl:left-32"
+                    />
+                    <img
+                        src="../images/Rectangle 90.png"
+                        alt=""
+                        class="absolute top-10 left-44 w-28 md:left-[80%] lg:w-32 xl:w-36 xl:left-[70%]"
+                    />
                 </div>
             </div>
-            <img class="absolute -right-48 w-64 -bottom-32 sm:-right-40 md:w-72 md:-bottom-28 xl:right-40 xl:w-80" src="../images/Rectangle 85.png" alt="">
-            <img class="absolute w-28 -bottom-24 -left-8 sm:left-4 sm:w-32 md:left-10 md:w-36 xl:left-72 xl:w-44 xl:-bottom-32" src="../images/Rectangle 90.png" alt=""> 
-            <img class="absolute w-56 -bottom-3 right-[50%] left-[50%] -translate-x-[50%] sm:w-64 sm:-bottom-6 md:w-72 xl:w-96 xl:-bottom-14" src="../images/Rectangle 85.png" alt="">
-            <img class="absolute w-36 -bottom-28 right-[50%] left-[40%] -translate-x-[50%] sm:w-40 sm:-bottom-32 sm:left-[45%] md:w-44 md:-bottom-36 xl:w-52 xl:-bottom-48" src="../images/Rectangle 91.png" alt=""> 
-            <img class="hidden xl:block absolute bottom-10 w-52 left-24" src="../images/Rectangle 91.png" alt=""> 
-        </div>
-    </header>
-    <section class="pt-[211px] md:pt-[380px] container overflow-hidden">
-        <div class="flex flex-col gap-12 sm:px-7 lg:px-20 xl:px-40">
-            <div class="font-bold">
-                <p class="text-sm uppercase">about the project</p>
-                <h1 class="text-3xl mt-[14px] sm:text-[35px] capitalize"><span class="text-primary-100">Overview</span></h1>
-            </div>
-            <div class="flex flex-col gap-[25px] py-[40px] md:py-[50px] pl-[20px] md:pl-[48px] xl:pl-[55px] pr-[35px] md:pr-[48px] xl:pr-[70px] bg-slate-100 rounded-[10px] border-l-[12px] border-sky-200">
-                <p class="text-base md:text-lg text-neutral-600">In December of 2019 OSDB team was recommended to our client to work on a complex SaaS portal for the US market.</p>
-                <p class="text-base md:text-lg text-neutral-600">Having made first touches the client has prepared an RFP document which outlined core features and business requirements they’d like to be delivered.</p>
-                <p class="text-base md:text-lg text-neutral-600">OSDB team has investigated the requirement and built up a roadmap for the project delivery for the upcoming 6 months starting from the design & investigation stage.</p>
-                <p class="text-base md:text-lg text-neutral-600">In 6 months the first version of the platform was released for the first users.</p>
-            </div>
-            <div class="relative mt-7 h-[470px] w-full md:h-72 lg:h-80">
-                <img class="absolute w-[280px] bottom-0 -right-20 md:right-[30%] md:top-16 lg:w-[300px] xl:w-[320px]" src="../images/Rectangle 85.png" alt="">
-                <img src="../images/Rectangle 90.png" alt="" class="absolute top-0 left-2 w-36 md:left-5 lg:w-40 xl:w-44 xl:left-32">
-                <img src="../images/Rectangle 90.png" alt="" class="absolute top-10 left-44 w-28 md:left-[80%] lg:w-32 xl:w-36 xl:left-[70%]">
-            </div>
-        </div>
-    </section>
-    <section class="py-[80px] md:py-[120px] xl:py-[180px] container">
-        <div class="bg-slate-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px] overflow-hidden">
-            <div class="py-[40px] px-3 flex flex-col gap-y-[45px] lg:flex-row-reverse lg:justify-between sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:py-24">
-                <div class="flex flex-col gap-y-[30px] lg:basis-[48%]">
-                    <div>
-                        <p class="text-sm font-medium uppercase">Challenge</p>
-                        <h1 class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold">Business <span class="text-primary-100">Problem</span></h1>
-                        <p class="text-neutral-600 mt-[10px] text-base md:text-lg">Having a deep understanding of Real Estate industry and processes which Agencies handle daily, the product owner aimed to create an all-in-one solution for Real Estate agents, their Employees, Tenants, Property Owners and Service Providers which can fix different items and support the properties’ good state.</p>
-                    </div>
-                    <ul class="flex flex-col gap-[15px]">
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:text-blue-400">Heavy-load support</li>
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:text-blue-400">Microservice architecture</li>
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:text-blue-400">Reactive approach</li>
-                    </ul>
-                </div>
-                <div class="relative h-72 w-full sm:h-96 lg:basis-[48%]">
-                    <img src="../images/Rectangle 85.png" alt="" class="absolute rotate-45 rouneded-[23px] -bottom-24 -right-16 w-72 z-20 sm:w-96 sm:rotate-[30deg] lg:w-80 lg:-right-2 lg:-bottom-36 xl:-bottom-32 xl:right-0 xl:w-96">
-                    <img src="../images/Rectangle 85.png" alt="" class="absolute rotate-45 rouneded-[23px] top-10 left-0 w-36 sm:w-52 sm:rotate-[30deg] sm:top-5 lg:top-16 z-20 lg:-left-20 xl:top-10 xl:-left-32">
-                    <img src="../images/Rectangle 91.png" alt="" class="absolute rotate-45 rouneded-[23px] -top-2 -right-3 w-52 sm:w-72 sm:rotate-[30deg] md:-top-10 md:right-10 md:w-80 lg:w-96 lg:right-3 lg:-top-20">
-                    <img src="../images/Rectangle 91.png" alt="" class="absolute rotate-45 rouneded-[23px] -bottom-12 -left-16 w-48 sm:w-80 sm:rotate-[30deg] lg:-left-52 lg:-bottom-36 lg:w-96">
-                </div>
-            </div>    
-        </div>    
-    </section>    
-    <section class="overflow-hidden">
-        <div class="container">
-            <div class="flex flex-col xl:flex-row xl:justify-between sm:px-7 lg:px-20 xl:pl-40 xl:pr-0">
-                <div class="flex flex-col gap-y-[40px] xl:basis-[50%]">
-                    <div class="mb-[10px] md:mb-[20px]">
-                        <p class="text-sm font-medium uppercase">Challenge</p>
-                        <h1 class="text-3xl mt-[14px] capitalize sm:text-[35px] font-bold"><span class="text-primary-100">Solution</span> by ID Al. Solutions</h1>
-                    </div>
-                    <div class="py-[40px] pl-[14px] md:pl-[29px] pr-[20px] md:pr-[40px] bg-slate-100 rounded-[10px] border-l-[5px] md:border-l-[10px] border-sky-200">
-                        <p class="text-base md:text-lg text-neutral-600">Haing conducted the Business Analysis of the potential users needs the solution was to create Individual Progressive Web Applications (PWAs) and Desktop Dashboards for different users type of the Real Estate system:</p>
-                    </div>
-                    <ul class="flex flex-col gap-[15px]">
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400">Dashboard for Agency to manage their business and employees</li>
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400">PWA for Property Managers who are in charge of particular properties</li>
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400">PWA for Tenants to communicate with Property Managers</li>
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400">PWA for Property Owners to overview the state of their Property Portfolio</li>
-                        <li class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400">PWA for Property Managers who are in charge of particular properties</li>
-                    </ul>
-                </div>
-                <div class="hidden xl:block relative w-full xl:basis-[50%]">
-                    <img src="../images/Rectangle 85.png" alt="" class="absolute -top-3 -right-32 ">
-                    <img src="../images/Rectangle 91.png" alt="" class="absolute -right-28 -bottom-3">
-                    <img src="../images/Rectangle 90.png" alt="" class="absolute right-72 -bottom-8 ">
-                    <img src="../images/Rectangle 94.png" alt="" class="absolute -right-5 bottom-44 2xl:hidden">
-                    <img src="../images/Rectangle 91.png" alt="" class="absolute w-52 right-[264px] top-16 2xl:top-0">
-                </div>
-            </div>    
-        </div>
-
-    </section>
-    <section class="py-[80px] md:py-[120px] xl:py-[180px]">
-        <div class="container">
-            <div class="bg-primary-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[40px] flex flex-col gap-y-[48px] xl:flex-row xl:justify-between xl:items-center px-3 sm:px-7 lg:px-20 xl:px-40 sm:py-14 xl:py-24">
-                    <div class="flex flex-col gap-5 xl:basis-[70%]">
-                        <p class="px-[15px] py-2.5 mb-1 uppercase text-white font-bold text-sm bg-sky-800 bg-opacity-50 rounded-[10px] w-fit">WE CAN HELP!</p>
-                        <h3 class="uppercase text-3xl font-bold md:text-[35px] text-white">CONTACT US TODAY</h3>
-                        <p class="text-base md:text-lg text-white">ID Al. Solutions takes a different approach to IT-service delivery, primarily focusing on maximum value for a reasonable price. Our developers have more than 5 years of commercial experience with dozens of successfully delivered projects.</p>
-                    </div>
-                    <div class="w-fit xl:basis-[20%] xl:-translate-y-10">
-                        <button class="w-full flex justify-center items-center sm:block sm:w-auto sm:px-8 py-3 capitalize font-medium text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">contact us</button>
-                    </div>
-                </div>    
-            </div>    
-        </div>
-    </section>
-    <section class="overflow-hidden">
-        <div class="container">
-            <div class="flex flex-col gap-[35px] md:pl-7 xl:pl-40">
-                <div class="flex justify-between items-center mb-[15px] md:mb-[25px]">
-                    <div>
-                        <p class="text-sm font-medium uppercase">Building</p>
-                        <h1 class="text-3xl mt-[14px] capitalize sm:text-[35px] font-bold">Key <span class="text-primary-100">Features</span></h1>
-                    </div>
-                    <div class="hidden sm:flex items-center justify-center gap-2 md:pr-7 xl:pr-40">
-                        <div class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"><i class="fa-solid fa-arrow-left"></i></div>
-                        <div class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"><i class="fa-solid fa-arrow-right"></i></div>
-                    </div>
-                </div>
-                <div class="flex justify-between">
-                    <div class="flex flex-col justify-center items-center gap-14 p-8 bg-white rounded-2xl shadow">
-                        <img class="w-fit mx-auto" src="../images/web-content 1.png" alt="">
-                        <div class="flex flex-col justify-center items-center gap-[16px] text-center">
-                            <h2 class="text-xl font-semibold md:text-2xl capitalize">feed</h2>
-                            <p class="text-base">The news feed is a part of the social media block that allows users to share important updates and displays relevant posts based on their interests.</p>
-                        </div>
-                    </div>
-                    <div class="hidden sm:flex flex-col justify-center items-center translate-x-[30px] gap-14 p-8 bg-gray-200 rounded-2xl shadow">
-                        <img class="w-fit mx-auto" src="../images/navigation 1.png" alt="">
-                        <div class="flex flex-col justify-center items-center gap-[16px] text-center">
-                            <h2 class="text-xl font-semibold md:text-2xl capitalize">navigation</h2>
-                            <p class="text-base">Platform navigation allows members to flow from one page to another without frustration by clicking on convenient user interface components.</p>
-                        </div>
-                    </div>
-                    <div class="hidden lg:flex flex-col justify-center items-center translate-x-[60px] gap-14 p-8 bg-white rounded-2xl shadow">
-                        <img class="w-fit mx-auto" src="../images/paper 1.png" alt="">
-                        <div class="flex flex-col justify-center items-center gap-[16px] text-center">
-                            <h2 class="text-xl font-semibold md:text-2xl capitalize">search</h2>
-                            <p class="text-base">The search function is made available as a search box at the top of the page. By typing in the keywords, users can find relevant content in different categories.</p>
-                        </div>
-                    </div>
-                    <div class="hidden xl:flex flex-col justify-center items-center translate-x-[90px] gap-14 p-8 bg-white rounded-2xl shadow">
-                        <img class="w-fit mx-auto" src="../images/content 1.png" alt="">
-                        <div class="flex flex-col justify-center items-center gap-[16px] text-center">
-                            <h2 class="text-xl font-semibold md:text-2xl capitalize">articles</h2>
-                            <p class="text-base">The section includes high-quality content that is open to discussion and can be shared on other social media platforms. Tags help users identify the main topic.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center justify-center gap-2 sm:hidden mx-auto">
-                    <div class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"><i class="fa-solid fa-arrow-left"></i></div>
-                    <div class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"><i class="fa-solid fa-arrow-right"></i></div>
-                </div>
-                <div class="flex justify-center gap-1 mt-[10px] sm:mt-[25px]">
-                    <div class="w-2 h-2 rounded-full bg-primary-100"></div>
-                    <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                    <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                    <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                    <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                    <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-[80px] md:py-[120px] xl:py-[180px]">
-        <div class="container">
-            <div class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[40px] flex flex-col gap-y-[30px] md:gap-y-[50px] xl:gap-y-[100px] px-3 sm:px-7 lg:px-20 xl:px-40 sm:py-14 xl:py-24">
-                    <div class="flex justify-between items-center">
+        </section>
+        <section class="py-[80px] md:py-[120px] xl:py-[180px] container">
+            <div
+                class="bg-slate-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px] overflow-hidden"
+            >
+                <div
+                    class="py-[40px] px-3 flex flex-col gap-y-[45px] lg:flex-row-reverse lg:justify-between sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:py-24"
+                >
+                    <div class="flex flex-col gap-y-[30px] lg:basis-[48%]">
                         <div>
-                            <p class="text-sm font-medium uppercase">Technology</p>
-                            <h1 class="text-3xl mt-[14px] sm:text-[35px] capitalize font-bold"><span class="text-primary-100">Tech Stack </span>We Used</h1>
+                            <p class="text-sm font-medium uppercase">
+                                Challenge
+                            </p>
+                            <h1
+                                class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold"
+                            >
+                                Business
+                                <span class="text-primary-100">Problem</span>
+                            </h1>
+                            <p
+                                class="text-neutral-600 mt-[10px] text-base md:text-lg"
+                            >
+                                Having a deep understanding of Real Estate
+                                industry and processes which Agencies handle
+                                daily, the product owner aimed to create an
+                                all-in-one solution for Real Estate agents,
+                                their Employees, Tenants, Property Owners and
+                                Service Providers which can fix different items
+                                and support the properties’ good state.
+                            </p>
                         </div>
-                        <div class="hidden lg:block">
-                            <button class="px-7 py-3 capitalize font-medium text-lg rounded-[60px] bg-secondary-100 text-white border-2 border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200">
+                        <ul class="flex flex-col gap-[15px]">
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:text-blue-400"
+                            >
+                                Heavy-load support
+                            </li>
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:text-blue-400"
+                            >
+                                Microservice architecture
+                            </li>
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:text-blue-400"
+                            >
+                                Reactive approach
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative h-72 w-full sm:h-96 lg:basis-[48%]">
+                        <img
+                            src="../images/Rectangle 85.png"
+                            alt=""
+                            class="absolute rotate-45 rouneded-[23px] -bottom-24 -right-16 w-72 z-20 sm:w-96 sm:rotate-[30deg] lg:w-80 lg:-right-2 lg:-bottom-36 xl:-bottom-32 xl:right-0 xl:w-96"
+                        />
+                        <img
+                            src="../images/Rectangle 85.png"
+                            alt=""
+                            class="absolute rotate-45 rouneded-[23px] top-10 left-0 w-36 sm:w-52 sm:rotate-[30deg] sm:top-5 lg:top-16 z-20 lg:-left-20 xl:top-10 xl:-left-32"
+                        />
+                        <img
+                            src="../images/Rectangle 91.png"
+                            alt=""
+                            class="absolute rotate-45 rouneded-[23px] -top-2 -right-3 w-52 sm:w-72 sm:rotate-[30deg] md:-top-10 md:right-10 md:w-80 lg:w-96 lg:right-3 lg:-top-20"
+                        />
+                        <img
+                            src="../images/Rectangle 91.png"
+                            alt=""
+                            class="absolute rotate-45 rouneded-[23px] -bottom-12 -left-16 w-48 sm:w-80 sm:rotate-[30deg] lg:-left-52 lg:-bottom-36 lg:w-96"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="overflow-hidden">
+            <div class="container">
+                <div
+                    class="flex flex-col xl:flex-row xl:justify-between sm:px-7 lg:px-20 xl:pl-40 xl:pr-0"
+                >
+                    <div class="flex flex-col gap-y-[40px] xl:basis-[50%]">
+                        <div class="mb-[10px] md:mb-[20px]">
+                            <p class="text-sm font-medium uppercase">
+                                Challenge
+                            </p>
+                            <h1
+                                class="text-3xl mt-[14px] capitalize sm:text-[35px] font-bold"
+                            >
+                                <span class="text-primary-100">Solution</span>
+                                by ID Al. Solutions
+                            </h1>
+                        </div>
+                        <div
+                            class="py-[40px] pl-[14px] md:pl-[29px] pr-[20px] md:pr-[40px] bg-slate-100 rounded-[10px] border-l-[5px] md:border-l-[10px] border-sky-200"
+                        >
+                            <p class="text-base md:text-lg text-neutral-600">
+                                Haing conducted the Business Analysis of the
+                                potential users needs the solution was to create
+                                Individual Progressive Web Applications (PWAs)
+                                and Desktop Dashboards for different users type
+                                of the Real Estate system:
+                            </p>
+                        </div>
+                        <ul class="flex flex-col gap-[15px]">
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400"
+                            >
+                                Dashboard for Agency to manage their business
+                                and employees
+                            </li>
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400"
+                            >
+                                PWA for Property Managers who are in charge of
+                                particular properties
+                            </li>
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400"
+                            >
+                                PWA for Tenants to communicate with Property
+                                Managers
+                            </li>
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400"
+                            >
+                                PWA for Property Owners to overview the state of
+                                their Property Portfolio
+                            </li>
+                            <li
+                                class="relative text-neutral-600 text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400"
+                            >
+                                PWA for Property Managers who are in charge of
+                                particular properties
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden xl:block relative w-full xl:basis-[50%]">
+                        <img
+                            src="../images/Rectangle 85.png"
+                            alt=""
+                            class="absolute -top-3 -right-32"
+                        />
+                        <img
+                            src="../images/Rectangle 91.png"
+                            alt=""
+                            class="absolute -right-28 -bottom-3"
+                        />
+                        <img
+                            src="../images/Rectangle 90.png"
+                            alt=""
+                            class="absolute right-72 -bottom-8"
+                        />
+                        <img
+                            src="../images/Rectangle 94.png"
+                            alt=""
+                            class="absolute -right-5 bottom-44 2xl:hidden"
+                        />
+                        <img
+                            src="../images/Rectangle 91.png"
+                            alt=""
+                            class="absolute w-52 right-[264px] top-16 2xl:top-0"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[80px] md:py-[120px] xl:py-[180px]">
+            <div class="container">
+                <div
+                    class="bg-primary-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                >
+                    <div
+                        class="py-[40px] flex flex-col gap-y-[48px] xl:flex-row xl:justify-between xl:items-center px-3 sm:px-7 lg:px-20 xl:px-40 sm:py-14 xl:py-24"
+                    >
+                        <div class="flex flex-col gap-5 xl:basis-[70%]">
+                            <p
+                                class="px-[15px] py-2.5 mb-1 uppercase text-white font-bold text-sm bg-sky-800 bg-opacity-50 rounded-[10px] w-fit"
+                            >
+                                WE CAN HELP!
+                            </p>
+                            <h3
+                                class="uppercase text-3xl font-bold md:text-[35px] text-white"
+                            >
+                                CONTACT US TODAY
+                            </h3>
+                            <p class="text-base md:text-lg text-white">
+                                ID Al. Solutions takes a different approach to
+                                IT-service delivery, primarily focusing on
+                                maximum value for a reasonable price. Our
+                                developers have more than 5 years of commercial
+                                experience with dozens of successfully delivered
+                                projects.
+                            </p>
+                        </div>
+                        <div class="w-fit xl:basis-[20%] xl:-translate-y-10">
+                            <button
+                                class="w-full flex justify-center items-center sm:block sm:w-auto sm:px-8 py-3 capitalize font-medium text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200"
+                            >
+                                contact us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="overflow-hidden">
+            <div class="container">
+                <div class="flex flex-col gap-[35px] md:pl-7 xl:pl-40">
+                    <div
+                        class="flex justify-between items-center mb-[15px] md:mb-[25px]"
+                    >
+                        <div>
+                            <p class="text-sm font-medium uppercase">
+                                Building
+                            </p>
+                            <h1
+                                class="text-3xl mt-[14px] capitalize sm:text-[35px] font-bold"
+                            >
+                                Key
+                                <span class="text-primary-100">Features</span>
+                            </h1>
+                        </div>
+                        <div
+                            class="hidden sm:flex items-center justify-center gap-2 md:pr-7 xl:pr-40"
+                        >
+                            <div
+                                class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"
+                            >
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                            <div
+                                class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"
+                            >
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <div
+                            class="flex flex-col justify-center items-center gap-14 p-8 bg-white rounded-2xl shadow"
+                        >
+                            <img
+                                class="w-fit mx-auto"
+                                src="../images/web-content 1.png"
+                                alt=""
+                            />
+                            <div
+                                class="flex flex-col justify-center items-center gap-[16px] text-center"
+                            >
+                                <h2
+                                    class="text-xl font-semibold md:text-2xl capitalize"
+                                >
+                                    feed
+                                </h2>
+                                <p class="text-base">
+                                    The news feed is a part of the social media
+                                    block that allows users to share important
+                                    updates and displays relevant posts based on
+                                    their interests.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="hidden sm:flex flex-col justify-center items-center translate-x-[30px] gap-14 p-8 bg-gray-200 rounded-2xl shadow"
+                        >
+                            <img
+                                class="w-fit mx-auto"
+                                src="../images/navigation 1.png"
+                                alt=""
+                            />
+                            <div
+                                class="flex flex-col justify-center items-center gap-[16px] text-center"
+                            >
+                                <h2
+                                    class="text-xl font-semibold md:text-2xl capitalize"
+                                >
+                                    navigation
+                                </h2>
+                                <p class="text-base">
+                                    Platform navigation allows members to flow
+                                    from one page to another without frustration
+                                    by clicking on convenient user interface
+                                    components.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="hidden lg:flex flex-col justify-center items-center translate-x-[60px] gap-14 p-8 bg-white rounded-2xl shadow"
+                        >
+                            <img
+                                class="w-fit mx-auto"
+                                src="../images/paper 1.png"
+                                alt=""
+                            />
+                            <div
+                                class="flex flex-col justify-center items-center gap-[16px] text-center"
+                            >
+                                <h2
+                                    class="text-xl font-semibold md:text-2xl capitalize"
+                                >
+                                    search
+                                </h2>
+                                <p class="text-base">
+                                    The search function is made available as a
+                                    search box at the top of the page. By typing
+                                    in the keywords, users can find relevant
+                                    content in different categories.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="hidden xl:flex flex-col justify-center items-center translate-x-[90px] gap-14 p-8 bg-white rounded-2xl shadow"
+                        >
+                            <img
+                                class="w-fit mx-auto"
+                                src="../images/content 1.png"
+                                alt=""
+                            />
+                            <div
+                                class="flex flex-col justify-center items-center gap-[16px] text-center"
+                            >
+                                <h2
+                                    class="text-xl font-semibold md:text-2xl capitalize"
+                                >
+                                    articles
+                                </h2>
+                                <p class="text-base">
+                                    The section includes high-quality content
+                                    that is open to discussion and can be shared
+                                    on other social media platforms. Tags help
+                                    users identify the main topic.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center justify-center gap-2 sm:hidden mx-auto"
+                    >
+                        <div
+                            class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"
+                        >
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div
+                            class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"
+                        >
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div
+                        class="flex justify-center gap-1 mt-[10px] sm:mt-[25px]"
+                    >
+                        <div class="w-2 h-2 rounded-full bg-primary-100"></div>
+                        <div
+                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
+                        ></div>
+                        <div
+                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
+                        ></div>
+                        <div
+                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
+                        ></div>
+                        <div
+                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
+                        ></div>
+                        <div
+                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[80px] md:py-[120px] xl:py-[180px]">
+            <div class="container">
+                <div
+                    class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                >
+                    <div
+                        class="py-[40px] flex flex-col gap-y-[30px] md:gap-y-[50px] xl:gap-y-[100px] px-3 sm:px-7 lg:px-20 xl:px-40 sm:py-14 xl:py-24"
+                    >
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-sm font-medium uppercase">
+                                    Technology
+                                </p>
+                                <h1
+                                    class="text-3xl mt-[14px] sm:text-[35px] capitalize font-bold"
+                                >
+                                    <span class="text-primary-100"
+                                        >Tech Stack </span
+                                    >We Used
+                                </h1>
+                            </div>
+                            <div class="hidden lg:block">
+                                <button
+                                    class="px-7 py-3 capitalize font-medium text-lg rounded-[60px] bg-secondary-100 text-white border-2 border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200"
+                                >
+                                    View Services
+                                </button>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-y-[60px] md:gap-y-[90px] xl:mx-[120px]"
+                        >
+                            <div
+                                class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start"
+                            >
+                                <div
+                                    class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <img
+                                        class="w-[50px] md:w-[70px]"
+                                        src="../images/ux-design.svg"
+                                        alt=""
+                                    />
+                                    <h4
+                                        class="capitalize font-semibold text-xl md:text-[25px]"
+                                    >
+                                        Frontend
+                                    </h4>
+                                </div>
+                                <ul
+                                    class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        React (TypeScript)
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Material UI, Styled Components
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div
+                                class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start"
+                            >
+                                <div
+                                    class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <img
+                                        class="w-[50px] md:w-[70px]"
+                                        src="../images/web-development.svg"
+                                        alt=""
+                                    />
+                                    <h4
+                                        class="capitalize font-semibold text-xl md:text-[25px]"
+                                    >
+                                        backend
+                                    </h4>
+                                </div>
+                                <ul
+                                    class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Java 14
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Spring Framework
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        MySQL, Liquibase
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Maven, Docker"
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div
+                                class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start"
+                            >
+                                <div
+                                    class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <img
+                                        class="w-[50px] md:w-[70px]"
+                                        src="../images/machine-learning 2.svg"
+                                        alt=""
+                                    />
+                                    <h4
+                                        class="capitalize font-semibold text-xl md:text-[25px]"
+                                    >
+                                        machine Learning
+                                    </h4>
+                                </div>
+                                <ul
+                                    class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Java 14
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Spring Framework
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        MySQL, Liquibase
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Maven, Docker"
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div
+                                class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start"
+                            >
+                                <div
+                                    class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <img
+                                        class="w-[50px] md:w-[70px]"
+                                        src="../images/devops 1.svg"
+                                        alt=""
+                                    />
+                                    <h4
+                                        class="capitalize font-semibold text-xl md:text-[25px]"
+                                    >
+                                        DevOps
+                                    </h4>
+                                </div>
+                                <ul
+                                    class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Java 14
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Spring Framework
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        MySQL, Liquibase
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Maven, Docker"
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div
+                                class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start"
+                            >
+                                <div
+                                    class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <img
+                                        class="w-[50px] md:w-[70px]"
+                                        src="../images/cloud-storage 1.svg"
+                                        alt=""
+                                    />
+                                    <h4
+                                        class="capitalize font-semibold text-xl md:text-[25px]"
+                                    >
+                                        storage
+                                    </h4>
+                                </div>
+                                <ul
+                                    class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]"
+                                >
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Java 14
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Spring Framework
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        MySQL, Liquibase
+                                    </li>
+                                    <li
+                                        class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize"
+                                    >
+                                        Maven, Docker"
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mx-auto lg:hidden mt-5">
+                            <button
+                                class="px-20 py-3 capitalize font-medium text-base md:text-lg rounded-[60px] bg-secondary-100 text-white border-2 border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200"
+                            >
                                 View Services
                             </button>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-y-[60px] md:gap-y-[90px] xl:mx-[120px]">
-                        <div class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start">
-                            <div class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]">
-                                <img class="w-[50px] md:w-[70px]" src="../images/ux-design.svg" alt="">
-                                <h4 class="capitalize font-semibold text-xl md:text-[25px]">Frontend</h4>
-                            </div>
-                            <ul class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]">
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">React (TypeScript)</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Material UI, Styled Components</li>
-                            </ul>        
-                        </div>
-
-                        <div class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start">
-                            <div class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]">
-                                <img class="w-[50px] md:w-[70px]" src="../images/web-development.svg" alt="">
-                                <h4 class="capitalize font-semibold text-xl md:text-[25px]">backend</h4>
-                            </div>
-                            <ul class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]">
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Java 14</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Spring Framework</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">MySQL, Liquibase</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Maven, Docker"</li>
-                            </ul>        
-                        </div>
-
-                        <div class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start">
-                            <div class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]">
-                                <img class="w-[50px] md:w-[70px]" src="../images/machine-learning 2.svg" alt="">
-                                <h4 class="capitalize font-semibold text-xl md:text-[25px]">machine Learning</h4>
-                            </div>
-                            <ul class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]">
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Java 14</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Spring Framework</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">MySQL, Liquibase</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Maven, Docker"</li>
-                            </ul>        
-                        </div>
-
-                        <div class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start">
-                            <div class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]">
-                                <img class="w-[50px] md:w-[70px]" src="../images/devops 1.svg" alt="">
-                                <h4 class="capitalize font-semibold text-xl md:text-[25px]">DevOps</h4>
-                            </div>
-                            <ul class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]">
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Java 14</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Spring Framework</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">MySQL, Liquibase</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Maven, Docker"</li>
-                            </ul>        
-                        </div>
-
-                        <div class="flex flex-col gap-y-[30px] md:flex-row md:justify-between items-start">
-                            <div class="flex gap-x-[22px] items-center md:basis-[37%] xl:basis-[38%]">
-                                <img class="w-[50px] md:w-[70px]" src="../images/cloud-storage 1.svg" alt="">
-                                <h4 class="capitalize font-semibold text-xl md:text-[25px]">storage</h4>
-                            </div>
-                            <ul class="flex flex-col gap-[20px] md:basis-[37%] xl:basis-[38%]">
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Java 14</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Spring Framework</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">MySQL, Liquibase</li>
-                                <li class="relative text-base md:text-lg ml-7 before:absolute before:font-['FontAwesome'] before:content-['\f058'] before:-left-7 before:top-[50%] before:translate-y-[-50%] before:text-blue-400 capitalize">Maven, Docker"</li>
-                            </ul>        
-                        </div>
-
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="flex flex-col gap-12 sm:px-7 lg:px-20 xl:px-40">
+                <div class="font-bold">
+                    <p class="text-sm uppercase">about the project</p>
+                    <h1 class="text-3xl mt-[14px] sm:text-[35px] capitalize">
+                        <span class="text-primary-100">Results</span>
+                    </h1>
+                </div>
+                <div
+                    class="flex flex-col gap-[25px] py-[40px] md:py-[50px] pl-[20px] md:pl-[48px] xl:pl-[55px] pr-[35px] md:pr-[48px] xl:pr-[70px] bg-slate-100 rounded-[10px] border-l-[12px] border-sky-200"
+                >
+                    <p class="text-base md:text-lg text-neutral-600">
+                        In December of 2019 OSDB team was recommended to our
+                        client to work on a complex SaaS portal for the US
+                        market.
+                    </p>
+                    <p class="text-base md:text-lg text-neutral-600">
+                        Having made first touches the client has prepared an RFP
+                        document which outlined core features and business
+                        requirements they’d like to be delivered.
+                    </p>
+                    <p class="text-base md:text-lg text-neutral-600">
+                        OSDB team has investigated the requirement and built up
+                        a roadmap for the project delivery for the upcoming 6
+                        months starting from the design & investigation stage.
+                    </p>
+                    <p class="text-base md:text-lg text-neutral-600">
+                        In 6 months the first version of the platform was
+                        released for the first users.
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col gap-y-[15px] md:flex-row md:gap-x-[30px] md:items-start xl:gap-x-[90px] mt-[30px] md:mt-[70px] xl:mt-[110px]"
+                >
+                    <div class="w-fit">
+                        <i
+                            class="fa-solid fa-quote-left text-4xl md:text-5xl xl:text-7xl"
+                        ></i>
                     </div>
-                    <div class="mx-auto lg:hidden mt-5">
-                        <button class="px-20 py-3 capitalize font-medium text-base md:text-lg rounded-[60px] bg-secondary-100 text-white border-2 border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200">
-                            View Services
-                        </button>
+                    <div
+                        class="flex flex-col gap-[40px] md:gap-[50px] xl:gap-[70px] max-w-[600px]"
+                    >
+                        <p class="text-xl font-medium md:text-[32px]">
+                            ID Al. Solutions takes a different approach to
+                            IT-service delivery, primarily focusing on maximum
+                            value for a reasonable price. Our developers have
+                            more than 5 years of commercial
+                        </p>
+                        <div class="flex items-start gap-4 md:gap-6">
+                            <img
+                                src="../images/Ellipse 29.png"
+                                alt=""
+                                class="w-[57px] md:w-[80px]"
+                            />
+                            <div class="flex flex-col gap-1">
+                                <h4 class="text-xl font-semibold md:text-2xl">
+                                    Anthony Klok
+                                </h4>
+                                <p class="text-base md:text-lg">
+                                    Senior Director of Engineering at
+                                    <a href="" class="underline text-cyan-700"
+                                        >Sans Brothers</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>            
-    <section class="container">
-        <div class="flex flex-col gap-12 sm:px-7 lg:px-20 xl:px-40">
-            <div class="font-bold">
-                <p class="text-sm uppercase">about the project</p>
-                <h1 class="text-3xl mt-[14px] sm:text-[35px] capitalize"><span class="text-primary-100">Results</span></h1>
-            </div>
-            <div class="flex flex-col gap-[25px] py-[40px] md:py-[50px] pl-[20px] md:pl-[48px] xl:pl-[55px] pr-[35px] md:pr-[48px] xl:pr-[70px] bg-slate-100 rounded-[10px] border-l-[12px] border-sky-200">
-                <p class="text-base md:text-lg text-neutral-600">In December of 2019 OSDB team was recommended to our client to work on a complex SaaS portal for the US market.</p>
-                <p class="text-base md:text-lg text-neutral-600">Having made first touches the client has prepared an RFP document which outlined core features and business requirements they’d like to be delivered.</p>
-                <p class="text-base md:text-lg text-neutral-600">OSDB team has investigated the requirement and built up a roadmap for the project delivery for the upcoming 6 months starting from the design & investigation stage.</p>
-                <p class="text-base md:text-lg text-neutral-600">In 6 months the first version of the platform was released for the first users.</p>
-            </div>
-            <div class="flex flex-col gap-y-[15px] md:flex-row md:gap-x-[30px] md:items-start xl:gap-x-[90px] mt-[30px] md:mt-[70px] xl:mt-[110px]">
-                <div class="w-fit">
-                    <i class="fa-solid fa-quote-left text-4xl md:text-5xl xl:text-7xl"></i>
-                </div>
-                <div class="flex flex-col gap-[40px] md:gap-[50px] xl:gap-[70px] max-w-[600px]">
-                    <p class="text-xl font-medium md:text-[32px]">ID Al. Solutions takes a different approach to IT-service delivery, primarily focusing on maximum value for a reasonable price. Our developers have more than 5 years of commercial</p>
-                    <div class="flex items-start  gap-4 md:gap-6">
-                        <img src="../images/Ellipse 29.png" alt="" class="w-[57px] md:w-[80px]">
-                        <div class="flex flex-col gap-1">
-                            <h4 class="text-xl font-semibold md:text-2xl">Anthony Klok</h4>
-                            <p class="text-base md:text-lg ">Senior Director of Engineering at <a href="" class="underline text-cyan-700">Sans Brothers</a></p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>    
-    </section>    
-    <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]" id="contact">
-        <div class="container">
-            <div class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between flex-wrap sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28">
-                    <div class="xl:basis-[40%] flex flex-col gap-[45px] xl:translate-y-10">
-                        <div>
-                            <p class="text-sm font-medium uppercase">Contacts</p>
-                            <h1 class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold">let's get in <span class="text-primary-100">touch!</span></h1>
-                            <p class="text-neutral-600 mt-[10px] font-normal text-base">Are you interested in supporting our products? Are you planning to start a project? Or have you got any questions? </p>
-                            <p class="text-neutral-600 mt-[17px] font-normal text-base">Please feel free to get in touch with us</p>
-                        </div>
-                        <div class="flex flex-col sm:flex-row">
+        </section>
+        <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]" id="contact">
+            <div class="container">
+                <div
+                    class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                >
+                    <div
+                        class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between flex-wrap sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28"
+                    >
+                        <div
+                            class="xl:basis-[40%] flex flex-col gap-[45px] xl:translate-y-10"
+                        >
                             <div>
-                                <label class="uppercase text-zinc-500 text-sm font-medium" for="#phone">phone</label>
-                                <p class="text-lg mt-[20px]" id="phone">+38 093 647 40 70</p>
+                                <p class="text-sm font-medium uppercase">
+                                    Contacts
+                                </p>
+                                <h1
+                                    class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold"
+                                >
+                                    let's get in
+                                    <span class="text-primary-100">touch!</span>
+                                </h1>
+                                <p
+                                    class="text-neutral-600 mt-[10px] font-normal text-base"
+                                >
+                                    Are you interested in supporting our
+                                    products? Are you planning to start a
+                                    project? Or have you got any questions?
+                                </p>
+                                <p
+                                    class="text-neutral-600 mt-[17px] font-normal text-base"
+                                >
+                                    Please feel free to get in touch with us
+                                </p>
                             </div>
-                            <div class="w-44 h-[2px] bg-neutral-400 my-5 rounded-full sm:w-[2px] sm:h-20 sm:my-0 sm:mx-5"></div>
-                            <div>
-                                <label class="uppercase text-zinc-500 text-sm font-medium" for="#email">email</label>
-                                <p class="text-lg mt-[20px]" id="email">info@idalsolutions.com</p>
+                            <div class="flex flex-col sm:flex-row">
+                                <div>
+                                    <label
+                                        class="uppercase text-zinc-500 text-sm font-medium"
+                                        for="#phone"
+                                        >phone</label
+                                    >
+                                    <p class="text-lg mt-[20px]" id="phone">
+                                        +38 093 647 40 70
+                                    </p>
+                                </div>
+                                <div
+                                    class="w-44 h-[2px] bg-neutral-400 my-5 rounded-full sm:w-[2px] sm:h-20 sm:my-0 sm:mx-5"
+                                ></div>
+                                <div>
+                                    <label
+                                        class="uppercase text-zinc-500 text-sm font-medium"
+                                        for="#email"
+                                        >email</label
+                                    >
+                                    <p class="text-lg mt-[20px]" id="email">
+                                        info@idalsolutions.com
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <form class="flex flex-col gap-y-[15px] xl:basis-[55%]" action="">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="name">name</label>
-                        <input class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700" type="text" name="name" id="" value="John Smith">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="email">email</label>
-                        <input class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700  placeholder:text-neutral-600 placeholder:text-opacity-50" type="email" name="email" id="" placeholder="Enter your email...">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="phone">phone</label>
-                        <input class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700  placeholder:text-neutral-600 placeholder:text-opacity-50" type="text" name="phone" id="" placeholder="+123">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="msg">message</label>
-                        <textarea class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700  placeholder:text-neutral-600 placeholder:text-opacity-50 resize-none" name="msg" placeholder="Text" rows="3"></textarea>
-                        <label class="flex gap-3" for="privacy"> 
-                            <input class="checked:accent-primary-100 w-5 h-5" type="checkbox" name="" id="privacy">
-                            <div class="text-base text-neutral-600">
-                                I have read and agree to the <a class="text-blue-700 underline capitalize" href="">Terms & Conditions</a> and <a class="text-blue-700 underline capitalize" href="">Privacy Policy</a>
+                        <form
+                            class="flex flex-col gap-y-[15px] xl:basis-[55%]"
+                            action=""
+                        >
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="name"
+                                >name</label
+                            >
+                            <input
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700"
+                                type="text"
+                                name="name"
+                                id=""
+                                value="John Smith"
+                            />
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="email"
+                                >email</label
+                            >
+                            <input
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700 placeholder:text-neutral-600 placeholder:text-opacity-50"
+                                type="email"
+                                name="email"
+                                id=""
+                                placeholder="Enter your email..."
+                            />
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="phone"
+                                >phone</label
+                            >
+                            <input
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700 placeholder:text-neutral-600 placeholder:text-opacity-50"
+                                type="text"
+                                name="phone"
+                                id=""
+                                placeholder="+123"
+                            />
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="msg"
+                                >message</label
+                            >
+                            <textarea
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700 placeholder:text-neutral-600 placeholder:text-opacity-50 resize-none"
+                                name="msg"
+                                placeholder="Text"
+                                rows="3"
+                            ></textarea>
+                            <label class="flex gap-3" for="privacy">
+                                <input
+                                    class="checked:accent-primary-100 w-5 h-5"
+                                    type="checkbox"
+                                    name=""
+                                    id="privacy"
+                                />
+                                <div class="text-base text-neutral-600">
+                                    I have read and agree to the
+                                    <a
+                                        class="text-blue-700 underline capitalize"
+                                        href=""
+                                        >Terms & Conditions</a
+                                    >
+                                    and
+                                    <a
+                                        class="text-blue-700 underline capitalize"
+                                        href=""
+                                        >Privacy Policy</a
+                                    >
+                                </div>
+                            </label>
+                            <div
+                                class="flex flex-col gap-y-[15px] sm:flex-row sm:justify-between"
+                            >
+                                <button
+                                    class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold text-white bg-primary-100 hover:bg-primary-200 sm:basis-[49%]"
+                                >
+                                    Get in touch
+                                </button>
+                                <button
+                                    class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold border border-neutral-400 bg-transparent hover:text-white hover:bg-primary-100 sm:basis-[49%]"
+                                >
+                                    Schedule a Call
+                                </button>
                             </div>
-                        </label>
-                        <div class="flex flex-col gap-y-[15px] sm:flex-row sm:justify-between">
-                            <button class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold text-white bg-primary-100 hover:bg-primary-200 sm:basis-[49%]">Get in touch</button>
-                            <button class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold border border-neutral-400 bg-transparent hover:text-white hover:bg-primary-100 sm:basis-[49%]">Schedule a Call</button>
-                        </div>
-                    </form>
-                </div>    
-            </div>    
-        </div>    
-    </section>  
-
-    <section class="py-[15px] sm:py-[30px] lg:py-[40px]">
-        <div class="container">
-            <div class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[53px] px-3 flex flex-col gap-y-[20px] items-center xl:flex-row xl:justify-between xl:px-40">
-                    <div class="flex flex-col gap-5 sm:flex-row items-center">
-                        <img class="w-fit" src="../images/palestine_64.png" alt="">
-                        <h3 class="text-xl sm:text-[25px] font-bold text-center">Support the brave people of Palestine</h3>
-                    </div>
-                    <div>
-                        <button class="py-5 px-[45px] capitalize text-cyan-900 font-semibold text-lg bg-white rounded-[60px] hover:bg-primary-100 hover:text-white">support palestine</button>
+                        </form>
                     </div>
                 </div>
+            </div>
+        </section>
 
-            </div>    
-        </div>    
-    </section>    
-
-    <footer class="pb-[30px]">
-        <div class="container">
-            <div class="bg-primary-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[40px] px-3 flex flex-col gap-y-[48px] sm:px-7 lg:px-20 xl:px-40 sm:py-14">
-                    <div class="flex flex-col gap-y-[22px] md:flex-row md:justify-between md:flex-wrap border-b border-neutral-400 pb-12 xl:pb-0">
-                        <div class="flex flex-col gap-y-[22px] md:basis-full items-center md:items-start xl:basis-[28%] xl:mr-8">
-                            <a href="../index.html">
-                                <img class="md:w-[240px] mb-1 xl:mb-3 xl:w-[150px]" src="../images/v1_logoname_banner_transp 3.png" alt="">
-                            </a>
-                            <p class="text-neutral-300 text[15px] text-center md:text-start mb-7 md:mb-5 xl:mb-9">ID Al. Solutions is a software development team that creates unique IT startups and implements top-notch outsource projects</p>
-                            <div class="flex gap-[22px] mb-7 md:mb-5 xl:mb-9">
-                                <a class="bg-white text-primary-100 rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-black hover:text-white text-5xl overflow-hidden" href=""><i class="fa-brands fa-telegram"></i></a>
-                                <a class="bg-transparent text-white  rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-white hover:text-black" href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="flex flex-col gap-2 items-center md:items-start md:basis-[28%] xl:basis-[16%]">
-                            <h3 class="uppercase text-xl text-white font-semibold mb-5">QUICK LINKS</h3>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="aboutus.html">about us</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="blog.html">blog post</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="projects.html">our project</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="#contact">contact us</a>
-                        </div>
-                        <div class="flex flex-col gap-2 items-center md:items-start md:basis-[33%]  xl:basis-[26%]">
-                            <h3 class="uppercase text-xl text-white font-semibold mb-5">IT SERVICES</h3>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">web application development</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">Custom software development</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">Machine Learning & AI</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">software testing & QA</a>
-                        </div>
-                        <div class="flex flex-col gap-2 items-center md:items-start md:basis-[29%]  xl:basis-[20%]">
-                            <h3 class="uppercase text-xl text-white font-semibold mb-5">contact us</h3>
-                            <p class="text-[15px] text-neutral-300 ">Kyiv, Ukraine</p>
-                            <p class="text-[15px] text-neutral-300 ">+38 093 647 40 70</p>
-                            <a class="text-[15px] text-neutral-300 underline" href="">info@idalsolutions.com</a>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-5 lg:flex-row-reverse lg:justify-between items-center md:items-start">
-                        <div class="flex gap-[30px]">
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="tmcn.html">Terms & Conditions</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="PP.html">Privacy Policy</a>
+        <section class="py-[15px] sm:py-[30px] lg:py-[40px]">
+            <div class="container">
+                <div
+                    class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                >
+                    <div
+                        class="py-[53px] px-3 flex flex-col gap-y-[20px] items-center xl:flex-row xl:justify-between xl:px-40"
+                    >
+                        <div
+                            class="flex flex-col gap-5 sm:flex-row items-center"
+                        >
+                            <img
+                                class="w-fit"
+                                src="../images/palestine_64.png"
+                                alt=""
+                            />
+                            <h3
+                                class="text-xl sm:text-[25px] font-bold text-center"
+                            >
+                                Support the brave people of Palestine
+                            </h3>
                         </div>
                         <div>
-                            <p class="capitalize text-[15px] text-neutral-300">© ID Al. Solutions | All Rights Reserved. 2021 - 2023</p>
+                            <button
+                                class="py-5 px-[45px] capitalize text-cyan-900 font-semibold text-lg bg-white rounded-[60px] hover:bg-primary-100 hover:text-white"
+                            >
+                                support palestine
+                            </button>
                         </div>
                     </div>
-                </div>    
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
 
-    
-    <script src="../script.js"></script>
-</body>    
+        <footer class="pb-[30px]">
+            <div class="container">
+                <div
+                    class="bg-primary-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                >
+                    <div
+                        class="py-[40px] px-3 flex flex-col gap-y-[48px] sm:px-7 lg:px-20 xl:px-40 sm:py-14"
+                    >
+                        <div
+                            class="flex flex-col gap-y-[22px] md:flex-row md:justify-between md:flex-wrap border-b border-neutral-400 pb-12 xl:pb-0"
+                        >
+                            <div
+                                class="flex flex-col gap-y-[22px] md:basis-full items-center md:items-start xl:basis-[28%] xl:mr-8"
+                            >
+                                <a href="../index.html">
+                                    <img
+                                        class="md:w-[240px] mb-1 xl:mb-3 xl:w-[150px]"
+                                        src="../images/v1_logoname_banner_transp 3.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <p
+                                    class="text-neutral-300 text[15px] text-center md:text-start mb-7 md:mb-5 xl:mb-9"
+                                >
+                                    ID Al. Solutions is a software development
+                                    team that creates unique IT startups and
+                                    implements top-notch outsource projects
+                                </p>
+                                <div
+                                    class="flex gap-[22px] mb-7 md:mb-5 xl:mb-9"
+                                >
+                                    <a
+                                        class="bg-white text-primary-100 rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-black hover:text-white text-5xl overflow-hidden"
+                                        href=""
+                                        ><i class="fa-brands fa-telegram"></i
+                                    ></a>
+                                    <a
+                                        class="bg-transparent text-white rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-white hover:text-black"
+                                        href=""
+                                        ><i class="fa-brands fa-linkedin-in"></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-2 items-center md:items-start md:basis-[28%] xl:basis-[16%]"
+                            >
+                                <h3
+                                    class="uppercase text-xl text-white font-semibold mb-5"
+                                >
+                                    QUICK LINKS
+                                </h3>
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="aboutus.html"
+                                    >about us</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="blog.html"
+                                    >blog post</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="projects.html"
+                                    >our project</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="#contact"
+                                    >contact us</a
+                                >
+                            </div>
+                            <div
+                                class="flex flex-col gap-2 items-center md:items-start md:basis-[33%] xl:basis-[26%]"
+                            >
+                                <h3
+                                    class="uppercase text-xl text-white font-semibold mb-5"
+                                >
+                                    IT SERVICES
+                                </h3>
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >web application development</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >Custom software development</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >Machine Learning & AI</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >software testing & QA</a
+                                >
+                            </div>
+                            <div
+                                class="flex flex-col gap-2 items-center md:items-start md:basis-[29%] xl:basis-[20%]"
+                            >
+                                <h3
+                                    class="uppercase text-xl text-white font-semibold mb-5"
+                                >
+                                    contact us
+                                </h3>
+                                <p class="text-[15px] text-neutral-300">
+                                    Kyiv, Ukraine
+                                </p>
+                                <p class="text-[15px] text-neutral-300">
+                                    +38 093 647 40 70
+                                </p>
+                                <a
+                                    class="text-[15px] text-neutral-300 underline"
+                                    href=""
+                                    >info@idalsolutions.com</a
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 lg:flex-row-reverse lg:justify-between items-center md:items-start"
+                        >
+                            <div class="flex gap-[30px]">
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="tmcn.html"
+                                    >Terms & Conditions</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="PP.html"
+                                    >Privacy Policy</a
+                                >
+                            </div>
+                            <div>
+                                <p
+                                    class="capitalize text-[15px] text-neutral-300"
+                                >
+                                    © ID Al. Solutions | All Rights Reserved.
+                                    2021 - 2023
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="../script.js"></script>
+    </body>
 </html>
