@@ -15,21 +15,14 @@
             <div class="flex flex-row justify-between  h-36 pt-8">
                 <div>
                     <a class="flex  gap-3 items-center justify-between" href="#header">
-                        <img src="images/Vector.png" alt="">
-                        <img src="images/Clip path group.png" alt="">
+                        <img src="images/Vector.png" alt="" class="w-[45px] sm:w-auto">
+                        <img src="images/Clip path group.png" alt="" class="w-[140px] sm:w-auto">
                     </a>
                 </div>
                 <div class="capitalize text-white font-medium text-lg justify-between gap-10 mt-5 hidden lg:flex">
                     <a class="hover:text-secondary-100" href="src/services.html">services</a>
-                    <div class="block">
-                        <button class="dropdown-btn inline-block hover:text-secondary-100">Products
-                            <i class="fa fa-caret-down ml-5 "></i>
-                        </button>
-                        <div class="dropdown-container hidden">
-                            <a class="hover:text-secondary-100" href="#">Dr. GyneCom</a>
-                        </div>
-                    </div>
                     <a class="hover:text-secondary-100" href="src/aboutus.html">about us</a>
+                    <a class="hover:text-secondary-100" href="src/projects.html">our project</a>
                     <a class="hover:text-secondary-100" href="src/resources.html">resources</a>
                 </div>
                 <div class=" justify-between flex sm:gap-3 sm:mt-1">
@@ -38,9 +31,9 @@
                             contact us
                         </button>
                     </div>
-                    <div class="text-white text-3xl mt-5 sm:mt-3 lg:hidden">
+                    <button class="text-white text-3xl self-baseline mt-[7px] sm:mt-3 lg:hidden">
                         <i class="fa-solid fa-bars"></i>
-                    </div>               
+                    </button>               
                 </div>
             </div>
         </div>
@@ -54,8 +47,8 @@
                 </div>
                 <p class="text-lg font-light my-3">Experienced team of innovators and developers bringing new products to life</p>
                 <div class="flex gap-3 sm:gap-5 mb-10 lg:mb-7">
-                    <button class="px-5 py-2 sm:px-7 sm:py-3 capitalize sm:font-semibold sm:text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">Get in touch</button>
-                    <button class="px-5 py-2 sm:px-7 sm:py-3 capitalize sm:font-semibold sm:text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hover:bg-secondary-100 hover:border-secondary-100 ">Services</button>
+                    <a href="#contact" class="px-5 py-2 sm:px-7 sm:py-3 capitalize sm:font-semibold sm:text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">Get in touch</a>
+                    <a href="src/services.html" class="px-5 py-2 sm:px-7 sm:py-3 capitalize sm:font-semibold sm:text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hover:bg-secondary-100 hover:border-secondary-100 ">Services</a>
                 </div>
             </div>
 
@@ -70,9 +63,9 @@
                     <h1 class="text-3xl mt-[14px] sm:text-[35px] capitalize"><span class="text-primary-100">ideal software</span> solutions Only</h1>
                 </div>
                 <div class="hidden lg:block">
-                    <button class="px-7 py-3 capitalize font-semibold text-lg bg-primary-100 text-white border-2 rounded-3xl border-solid border-primary-100  hover:bg-primary-200 hover:border-primary-200 ">
+                    <a href="src/aboutus.html" class="px-7 py-3 capitalize font-semibold text-lg bg-primary-100 text-white border-2 rounded-3xl border-solid border-primary-100  hover:bg-primary-200 hover:border-primary-200 ">
                         about us
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="grid grid-cols-250 gap-10">
@@ -167,32 +160,8 @@
             </div>
         </div>
     </section>
-    <section class="py-[80px] md:py-[120px] xl:py-[180px] overflow-hidden">
-        <div class="px-[15px] sm:px-0 flex flex-col gap-7">
-            <div class="font-bold w-fit mx-auto text-center">
-                <p class="text-sm">Our Project</p>
-                <h1 class="text-3xl mt-[14px] capitalize sm:text-[35px]">Some of Our <span class="text-primary-100">Finest work</span></h1>
-            </div>
-            <div class="relative h-[500px] sm:h-[300px] mt-8">
-                <img class="w-full absolute bottom-0 sm:w-[47%] sm:top-0 sm:right-0 lg:w-[350px] lg:right-[150px] lg:top-5 xl:right-[250px]" src="images/Frame 144.png" alt="">
-                <img class="w-[250px] absolute top-0 right-0 sm:left-[86px] lg:left-[220px] xl:left-[310px] " src="images/Rectangle 85.png" alt="">
-                <img class="w-[100px] absolute top-2 left-0 lg:left-[110px] xl:left-[200px]" src="images/Rectangle 90.png" alt="">
-                <img class="w-[150px] absolute right-[100px] top-44 sm:left-[86px] lg:left-[220px] xl:left-[310px]" src="images/Rectangle 91.png" alt="">
-                <img class=" hidden w-[100px] absolute top-0 right-0 opacity-50 lg:block " src="images/Rectangle 90.png" alt="">
-                <img class=" hidden w-[250px] absolute top-0 -left-[160px] opacity-50 lg:block" src="images/Rectangle 85.png" alt="">
-            </div>
-            <div class="flex justify-center gap-1">
-                <div class="w-2 h-2 rounded-full bg-primary-100"></div>
-                <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-                <div class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"></div>
-            </div>
-        </div>
-    </section>
-
-    <section>
+    
+    <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]">
         <div class="container">
             <div class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
                 <div class="py-[40px] px-3 flex flex-col gap-12 sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pt-24 lg:pb-24">
@@ -291,7 +260,7 @@
                     <h1 class="my-[14px] capitalize text-[35px] font-bold">Our Latest <span class="text-primary-100">Insights</span></h1>
                 </div>
                 <div class="hidden lg:block">
-                    <button class="px-8 py-3 capitalize font-medium text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">read more</button>
+                    <a href="src/blog.html" class="px-8 py-3 capitalize font-medium text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">read more</a>
                 </div>
             </div>
             <div class="flex justify-between">
@@ -331,39 +300,44 @@
             <div class="py-[15px] px-5 bg-slate-200 rounded-[15px] ">
                 <div class="flex justify-between items-center gap-14">
                     <p class="text-base font-medium">How can I authenticate and authorize requests to your API?</p>
-                    <div class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></div>
+                    <button class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></button>
                 </div>
+                <p class="text-[15px] mt-5 hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet delectus voluptas nihil libero numquam omnis sit doloribus adipisci animi architecto sint fuga, temporibus corrupti repudiandae excepturi exercitationem quidem quaerat culpa!</p>
             </div>
             <div class="py-[15px] px-5 bg-slate-200 rounded-[15px] ">
                 <div class="flex justify-between items-center gap-14">
                     <p class="text-base font-medium">How can I authenticate and authorize requests to your API?</p>
-                    <div class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></div>
+                    <button class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></button>
                 </div>
+                <p class="text-[15px] mt-5 hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis doloremque minima fugit rerum, assumenda tempora eaque dignissimos blanditiis impedit laudantium voluptatibus placeat quas iusto explicabo quam. Sequi sed exercitationem quisquam.</p>
             </div>
             <div class="py-[15px] px-5 border border-neutral-200 rounded-[15px] lg:row-span-2">
                 <div class="flex justify-between items-center gap-14">
                     <p class="text-base font-medium">What programming languages are supported by your API/SDK?</p>
-                    <div class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-minus"></i></i></div>
+                    <button class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-minus"></i></i></button>
                 </div>
                 <p class="text-[15px] mt-5">Their team of experts understood my vision and translated it into a beautifully designed website. The attention to detail and the seamless functionality of the site surpassed my expectations</p>
             </div>
             <div class="py-[15px] px-5 bg-slate-200 rounded-[15px]">
                 <div class="flex justify-between items-center gap-14">
                     <p class="text-base font-medium">What is the rate limit for API requests?</p>
-                    <div class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></div>
+                    <button class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></button>
                 </div>
+                <p class="text-[15px] mt-5 hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusamus ut rem. Molestias optio cumque recusandae porro rem, culpa, dignissimos cupiditate unde iure iste omnis ex ipsum soluta reprehenderit eligendi.</p>
             </div>
             <div class="py-[15px] px-5 bg-slate-200 rounded-[15px]">
                 <div class="flex justify-between items-center gap-14">
                     <p class="text-base font-medium">What is the rate limit for API requests?</p>
-                    <div class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></div>
+                    <button class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></button>
                 </div>
+                <p class="text-[15px] mt-5 hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, cum aperiam excepturi sed praesentium quis sequi dolores laborum dignissimos libero ex, ea laboriosam magnam accusamus veritatis quidem, facilis eos accusantium!</p>
             </div>
             <div class="py-[15px] px-5 bg-slate-200 rounded-[15px] hidden lg:block">
                 <div class="flex justify-between items-center gap-14">
                     <p class="text-base font-medium">What is the rate limit for API requests?</p>
-                    <div class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></div>
+                    <button class="min-w-[53px] h-[53px] rounded-full bg-white flex justify-center items-center hover:shadow"><i class="fa-solid fa-plus"></i></button>
                 </div>
+                <p class="text-[15px] mt-5 hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quas laboriosam, iste magni pariatur aperiam aspernatur corporis ad perferendis possimus fugiat animi, soluta id. Quisquam adipisci ducimus harum minus qui?</p>
             </div>
             
 
@@ -374,8 +348,8 @@
     <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]">
         <div class="container">
             <div class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]" id="contact">
-                <div class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between flex-wrap sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28">
-                    <div class="xl:basis-[40%] flex flex-col gap-[45px] xl:translate-y-10">
+                <div class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28">
+                    <div class="xl:basis-[48%] flex flex-col gap-[45px] xl:translate-y-10">
                         <div>
                             <p class="text-sm font-medium uppercase">Contacts</p>
                             <h1 class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold">let's get in <span class="text-primary-100">touch!</span></h1>
@@ -394,7 +368,7 @@
                             </div>
                         </div>
                     </div>
-                    <form class="flex flex-col gap-y-[15px] xl:basis-[55%]" action="">
+                    <form class="flex flex-col gap-y-[15px] xl:basis-[50%]" action="">
                         <label class="text-neutral-400 text-base font-medium capitalize" for="name">name</label>
                         <input class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700" type="text" name="name" id="" value="John Smith">
                         <label class="text-neutral-400 text-base font-medium capitalize" for="email">email</label>

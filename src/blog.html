@@ -1,215 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ID Al. Solutions</title>
-    <link rel="stylesheet" href="./../dist/output.css">
-    <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="./../dist/all.min.css" />
-    
-</head>
-<body class="box-border font-main text-body bg-neutral-50">
-    <header class="bg-primary-700 md:rounded-b-[40px] rounded-b-[20px]" id="header">
-        <div class="container">
-            <div class="flex flex-row justify-between  h-36 pt-8">
-                <div>
-                    <a class="flex  gap-3 items-center justify-between" href="../index.html">
-                        <img src="../images/Vector.png" alt="">
-                        <img src="../images/Clip path group.png" alt="">
-                    </a>
-                </div>
-                <div class="capitalize text-white font-medium text-lg justify-between gap-10 mt-5 hidden lg:flex">
-                    <a class="hover:text-secondary-100" href="services.html">services</a>
-                    <div class="block">
-                        <button class="dropdown-btn inline-block hover:text-secondary-100">Products
-                            <i class="fa fa-caret-down ml-5 "></i>
-                        </button>
-                        <div class="dropdown-container hidden">
-                            <a class="hover:text-secondary-100" href="#">Dr. GyneCom</a>
-                        </div>
-                    </div>
-                    <a class="hover:text-secondary-100" href="aboutus.html">about us</a>
-                    <a class="text-secondary-100" href="resources.html">resources</a>
-                </div>
-                <div class=" justify-between flex sm:gap-3 sm:mt-1">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ID Al. Solutions</title>
+        <link rel="stylesheet" href="./../dist/output.css" />
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="./../dist/all.min.css" />
+    </head>
+    <body class="box-border font-main text-body bg-neutral-50">
+        <header
+            class="bg-primary-700 md:rounded-b-[40px] rounded-b-[20px]"
+            id="header"
+        >
+            <div class="container">
+                <div class="flex flex-row justify-between h-36 pt-8">
                     <div>
-                        <button class="px-7 py-3 capitalize font-semibold text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hidden sm:block hover:bg-secondary-100 hover:border-secondary-100 ">
-                            contact us
+                        <a
+                            class="flex gap-3 items-center justify-between"
+                            href="../index.html"
+                        >
+                            <img
+                                src="../images/Vector.png"
+                                alt=""
+                                class="w-[45px] sm:w-auto"
+                            />
+                            <img
+                                src="../images/Clip path group.png"
+                                alt=""
+                                class="w-[140px] sm:w-auto"
+                            />
+                        </a>
+                    </div>
+                    <div
+                        class="capitalize text-white font-medium text-lg justify-between gap-10 mt-5 hidden lg:flex"
+                    >
+                        <a class="hover:text-secondary-100" href="services.html"
+                            >services</a
+                        >
+                        <a class="hover:text-secondary-100" href="aboutus.html"
+                            >about us</a
+                        >
+                        <a class="hover:text-secondary-100" href="projects.html"
+                            >our project</a
+                        >
+                        <a
+                            class="hover:text-secondary-100"
+                            href="resources.html"
+                            >resources</a
+                        >
+                    </div>
+                    <div class="justify-between flex sm:gap-3 sm:mt-1">
+                        <div>
+                            <button
+                                class="px-7 py-3 capitalize font-semibold text-lg bg-transparent text-white border-2 rounded-3xl border-solid border-white hidden sm:block hover:bg-secondary-100 hover:border-secondary-100"
+                            >
+                                contact us
+                            </button>
+                        </div>
+                        <button
+                            class="text-white text-3xl self-baseline mt-[7px] sm:mt-3 lg:hidden"
+                        >
+                            <i class="fa-solid fa-bars"></i>
                         </button>
                     </div>
-                    <div class="text-white text-3xl mt-5 sm:mt-3 lg:hidden">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>               
+                </div>
+                <div class="flex gap-[15px] text-white text-base">
+                    <a
+                        class="font-medium capitalize opacity-50 hover:opacity-100"
+                        href="../index.html"
+                        >home</a
+                    >
+                    <div><i class="fa fa-caret-down -rotate-90"></i></div>
+                    <a class="font-medium capitalize" href="">resources</a>
+                </div>
+                <div
+                    class="text-white flex flex-col mx-auto items-center text-center mt-[60px] md:mt-[85px] xl:mt-[90px] pb-[100px] md:pb-[120px] xl:pb-[90px] gap-[25px] sm:max-w-[450px] md:max-w-[650px]"
+                >
+                    <p
+                        class="text-sm font-bold bg-slate-600 px-4 py-2.5 w-fit rounded-lg uppercase z-20"
+                    >
+                        blog
+                    </p>
+                    <div class="flex flex-col gap-6">
+                        <h1
+                            class="font-bold md:text-6xl text-[45px] capitalize z-20"
+                        >
+                            resources
+                        </h1>
+                        <p class="text-base md:text-lg my-3 z-20">
+                            Exchange of experience and knowledge is an important
+                            part of the IT industry. That is why ID Al. Solution
+                            team shares its experience with you in this
+                            collection of materials
+                        </p>
+                    </div>
+                    <div class="z-20 my-2">
+                        <a
+                            href="aboutus.html"
+                            class="px-7 py-3 capitalize font-semibold text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200"
+                        >
+                            About Us
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="flex gap-[15px] text-white text-base">
-                <a class="font-medium capitalize opacity-50 hover:opacity-100" href="../index.html">home</a>
-                <div><i class="fa fa-caret-down -rotate-90"></i></div>
-                <a class="font-medium capitalize" href="">resources</a>
-            </div>
-            <div class="text-white flex flex-col mx-auto items-center text-center mt-[60px] md:mt-[85px] xl:mt-[90px] pb-[100px] md:pb-[120px] xl:pb-[90px] gap-[25px] sm:max-w-[450px] md:max-w-[650px]">
-                <p class="text-sm font-bold bg-slate-600 px-4 py-2.5 w-fit rounded-lg uppercase z-20">blog</p>
-                <div class="flex flex-col gap-6">
-                    <h1 class="font-bold  md:text-6xl text-[45px] capitalize z-20">resources</h1>
-                    <p class="text-base md:text-lg my-3 z-20">Exchange of experience and knowledge is an important part of the IT industry. That is why ID Al. Solution team shares its experience with you in this collection of materials</p>
+        </header>
+        <section class="container -translate-y-9">
+            <div
+                class="flex flex-col lg:flex-row lg:justify-between lg:flex-wrap gap-y-[35px] lg:gap-y-0 xl:mx-32"
+            >
+                <div class="lg:basis-[48%]">
+                    <img
+                        class="w-full h-[520px] object-cover rounded-[35px] mb-3"
+                        src="../images/Frame 60 (2).jpg"
+                        alt=""
+                    />
+                    <p class="font-normal text-base text-stone-500">
+                        19 Jan 2022
+                    </p>
+                    <h2 class="text-3xl md:text-[35px] font-semibold">
+                        How one Webflow user grew his single person
+                    </h2>
+                    <p class="text-neutral-600 text-base md:text-lg">
+                        See how pivoting to Webflow changed one person’s sales
+                        strategy and allowed him to attract
+                    </p>
+                    <a href="" class="underline text-primary-100 text-lg">
+                        Read more</a
+                    >
                 </div>
-                <div class="z-20">
-                    <button class="px-7 py-3 capitalize font-semibold text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200 ">
-                        About Us
-                    </button>
+                <div class="lg:basis-[48%]">
+                    <img
+                        class="w-full rounded-[35px] mb-3"
+                        src="../images/Frame 60 (1).jpg"
+                        alt=""
+                    />
+                    <p class="font-normal text-base text-stone-500">
+                        19 Jan 2022
+                    </p>
+                    <h2 class="text-3xl md:text-[35px] font-semibold">
+                        How one Webflow user grew his single person
+                    </h2>
+                    <p class="text-neutral-600 text-base md:text-lg">
+                        See how pivoting to Webflow changed one person’s sales
+                        strategy and allowed him to attract
+                    </p>
+                    <a href="" class="underline text-primary-100 text-lg">
+                        Read more</a
+                    >
+                </div>
+                <div class="lg:basis-[48%] lg:order-last">
+                    <img
+                        class="w-full h-[520px] object-cover rounded-[15px] mb-3"
+                        src="../images/Frame 60.jpg"
+                        alt=""
+                    />
+                    <p class="font-normal text-base text-stone-500">
+                        19 Jan 2022
+                    </p>
+                    <h2 class="text-3xl md:text-[35px] font-semibold">
+                        How one Webflow user grew his single person
+                    </h2>
+                    <p class="text-neutral-600 text-base md:text-lg">
+                        See how pivoting to Webflow changed one person’s sales
+                        strategy and allowed him to attract
+                    </p>
+                    <a href="" class="underline text-primary-100 text-lg">
+                        Read more</a
+                    >
+                </div>
+                <div class="lg:basis-[48%] self-end">
+                    <img
+                        class="w-full rounded-[35px] mb-3"
+                        src="../images/Frame 60 (1).jpg"
+                        alt=""
+                    />
+                    <p class="font-normal text-base text-stone-500">
+                        19 Jan 2022
+                    </p>
+                    <h2 class="text-3xl md:text-[35px] font-semibold">
+                        How one Webflow user grew his single person
+                    </h2>
+                    <p class="text-neutral-600 text-base md:text-lg">
+                        See how pivoting to Webflow changed one person’s sales
+                        strategy and allowed him to attract
+                    </p>
+                    <a href="" class="underline text-primary-100 text-lg">
+                        Read more</a
+                    >
                 </div>
             </div>
-        </div>
-    </header>    
-    <section class="container -translate-y-9">
-        <div class="flex flex-col lg:flex-row lg:justify-between lg:flex-wrap gap-y-[35px] lg:gap-y-0 xl:mx-32">
-            <div class="lg:basis-[48%]">
-                <img class="w-full h-[520px] object-cover rounded-[35px] mb-3" src="../images/Frame 60 (2).jpg" alt="">
-                <p class="font-normal text-base text-stone-500">19 Jan 2022</p>
-                <h2 class="text-3xl md:text-[35px] font-semibold ">How one Webflow user grew his single person </h2>
-                <p class="text-neutral-600 text-base  md:text-lg">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                <a href="" class="underline text-primary-100 text-lg"> Read more</a>
-            </div>
-            <div class="lg:basis-[48%]">
-                <img class="w-full rounded-[35px] mb-3" src="../images/Frame 60 (1).jpg" alt="">
-                <p class="font-normal text-base text-stone-500">19 Jan 2022</p>
-                <h2 class="text-3xl md:text-[35px] font-semibold ">How one Webflow user grew his single person </h2>
-                <p class="text-neutral-600 text-base  md:text-lg">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                <a href="" class="underline text-primary-100 text-lg"> Read more</a>
-            </div>
-            <div class="lg:basis-[48%] lg:order-last">
-                <img class="w-full h-[520px] object-cover rounded-[15px] mb-3" src="../images/Frame 60.jpg" alt="">
-                <p class="font-normal text-base text-stone-500">19 Jan 2022</p>
-                <h2 class="text-3xl md:text-[35px] font-semibold ">How one Webflow user grew his single person </h2>
-                <p class="text-neutral-600 text-base  md:text-lg">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                <a href="" class="underline text-primary-100 text-lg"> Read more</a>
-            </div>
-            <div class="lg:basis-[48%] self-end">
-                <img class="w-full rounded-[35px] mb-3" src="../images/Frame 60 (1).jpg" alt="">
-                <p class="font-normal text-base text-stone-500">19 Jan 2022</p>
-                <h2 class="text-3xl md:text-[35px] font-semibold ">How one Webflow user grew his single person </h2>
-                <p class="text-neutral-600 text-base  md:text-lg">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-                <a href="" class="underline text-primary-100 text-lg"> Read more</a>
-            </div>
-        </div>
-    </section>
-    <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]" id="contact">
-        <div class="container">
-            <div class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between flex-wrap sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28">
-                    <div class="xl:basis-[40%] flex flex-col gap-[45px] xl:translate-y-10">
-                        <div>
-                            <p class="text-sm font-medium uppercase">Contacts</p>
-                            <h1 class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold">let's get in <span class="text-primary-100">touch!</span></h1>
-                            <p class="text-neutral-600 mt-[10px] font-normal text-base">Are you interested in supporting our products? Are you planning to start a project? Or have you got any questions? </p>
-                            <p class="text-neutral-600 mt-[17px] font-normal text-base">Please feel free to get in touch with us</p>
-                        </div>
-                        <div class="flex flex-col sm:flex-row">
+        </section>
+        <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]">
+            <div class="container">
+                <div
+                    class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                    id="contact"
+                >
+                    <div
+                        class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28"
+                    >
+                        <div
+                            class="xl:basis-[48%] flex flex-col gap-[45px] xl:translate-y-10"
+                        >
                             <div>
-                                <label class="uppercase text-zinc-500 text-sm font-medium" for="#phone">phone</label>
-                                <p class="text-lg mt-[20px]" id="phone">+38 093 647 40 70</p>
+                                <p class="text-sm font-medium uppercase">
+                                    Contacts
+                                </p>
+                                <h1
+                                    class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold"
+                                >
+                                    let's get in
+                                    <span class="text-primary-100">touch!</span>
+                                </h1>
+                                <p
+                                    class="text-neutral-600 mt-[10px] font-normal text-base"
+                                >
+                                    Are you interested in supporting our
+                                    products? Are you planning to start a
+                                    project? Or have you got any questions?
+                                </p>
+                                <p
+                                    class="text-neutral-600 mt-[17px] font-normal text-base"
+                                >
+                                    Please feel free to get in touch with us
+                                </p>
                             </div>
-                            <div class="w-44 h-[2px] bg-neutral-400 my-5 rounded-full sm:w-[2px] sm:h-20 sm:my-0 sm:mx-5"></div>
-                            <div>
-                                <label class="uppercase text-zinc-500 text-sm font-medium" for="#email">email</label>
-                                <p class="text-lg mt-[20px]" id="email">info@idalsolutions.com</p>
+                            <div class="flex flex-col sm:flex-row">
+                                <div>
+                                    <label
+                                        class="uppercase text-zinc-500 text-sm font-medium"
+                                        for="#phone"
+                                        >phone</label
+                                    >
+                                    <p class="text-lg mt-[20px]" id="phone">
+                                        +38 093 647 40 70
+                                    </p>
+                                </div>
+                                <div
+                                    class="w-44 h-[2px] bg-neutral-400 my-5 rounded-full sm:w-[2px] sm:h-20 sm:my-0 sm:mx-5"
+                                ></div>
+                                <div>
+                                    <label
+                                        class="uppercase text-zinc-500 text-sm font-medium"
+                                        for="#email"
+                                        >email</label
+                                    >
+                                    <p class="text-lg mt-[20px]" id="email">
+                                        info@idalsolutions.com
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <form class="flex flex-col gap-y-[15px] xl:basis-[55%]" action="">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="name">name</label>
-                        <input class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700" type="text" name="name" id="" value="John Smith">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="email">email</label>
-                        <input class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700  placeholder:text-neutral-600 placeholder:text-opacity-50" type="email" name="email" id="" placeholder="Enter your email...">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="phone">phone</label>
-                        <input class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700  placeholder:text-neutral-600 placeholder:text-opacity-50" type="text" name="phone" id="" placeholder="+123">
-                        <label class="text-neutral-400 text-base font-medium capitalize" for="msg">message</label>
-                        <textarea class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700  placeholder:text-neutral-600 placeholder:text-opacity-50 resize-none" name="msg" placeholder="Text" rows="3"></textarea>
-                        <label class="flex gap-3" for="privacy"> 
-                            <input class="checked:accent-primary-100 w-5 h-5" type="checkbox" name="" id="privacy">
-                            <div class="text-base text-neutral-600">
-                                I have read and agree to the <a class="text-blue-700 underline capitalize" href="">Terms & Conditions</a> and <a class="text-blue-700 underline capitalize" href="">Privacy Policy</a>
+                        <form
+                            class="flex flex-col gap-y-[15px] xl:basis-[50%]"
+                            action=""
+                        >
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="name"
+                                >name</label
+                            >
+                            <input
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700"
+                                type="text"
+                                name="name"
+                                id=""
+                                value="John Smith"
+                            />
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="email"
+                                >email</label
+                            >
+                            <input
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700 placeholder:text-neutral-600 placeholder:text-opacity-50"
+                                type="email"
+                                name="email"
+                                id=""
+                                placeholder="Enter your email..."
+                            />
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="phone"
+                                >phone</label
+                            >
+                            <input
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700 placeholder:text-neutral-600 placeholder:text-opacity-50"
+                                type="text"
+                                name="phone"
+                                id=""
+                                placeholder="+123"
+                            />
+                            <label
+                                class="text-neutral-400 text-base font-medium capitalize"
+                                for="msg"
+                                >message</label
+                            >
+                            <textarea
+                                class="py-[23px] px-[25px] rounded-[10px] border border-neutral-400 bg-transparent focus:outline-cyan-700 placeholder:text-neutral-600 placeholder:text-opacity-50 resize-none"
+                                name="msg"
+                                placeholder="Text"
+                                rows="3"
+                            ></textarea>
+                            <label class="flex gap-3" for="privacy">
+                                <input
+                                    class="checked:accent-primary-100 w-5 h-5"
+                                    type="checkbox"
+                                    name=""
+                                    id="privacy"
+                                />
+                                <div class="text-base text-neutral-600">
+                                    I have read and agree to the
+                                    <a
+                                        class="text-blue-700 underline capitalize"
+                                        href=""
+                                        >Terms & Conditions</a
+                                    >
+                                    and
+                                    <a
+                                        class="text-blue-700 underline capitalize"
+                                        href=""
+                                        >Privacy Policy</a
+                                    >
+                                </div>
+                            </label>
+                            <div
+                                class="flex flex-col gap-y-[15px] sm:flex-row sm:justify-between"
+                            >
+                                <button
+                                    class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold text-white bg-primary-100 hover:bg-primary-200 sm:basis-[49%]"
+                                >
+                                    Get in touch
+                                </button>
+                                <button
+                                    class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold border border-neutral-400 bg-transparent hover:text-white hover:bg-primary-100 sm:basis-[49%]"
+                                >
+                                    Schedule a Call
+                                </button>
                             </div>
-                        </label>
-                        <div class="flex flex-col gap-y-[15px] sm:flex-row sm:justify-between">
-                            <button class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold text-white bg-primary-100 hover:bg-primary-200 sm:basis-[49%]">Get in touch</button>
-                            <button class="w-full rounded-[60px] py-5 text-base flex justify-center sm:text-lg font-semibold border border-neutral-400 bg-transparent hover:text-white hover:bg-primary-100 sm:basis-[49%]">Schedule a Call</button>
-                        </div>
-                    </form>
-                </div>    
-            </div>    
-        </div>    
-    </section>  
-
-    <section class="py-[15px] sm:py-[30px] lg:py-[40px]">
-        <div class="container">
-            <div class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[53px] px-3 flex flex-col gap-y-[20px] items-center xl:flex-row xl:justify-between xl:px-40">
-                    <div class="flex flex-col gap-5 sm:flex-row items-center">
-                        <img class="w-fit" src="../images/palestine_64.png" alt="">
-                        <h3 class="text-xl sm:text-[25px] font-bold text-center">Support the brave people of Palestine</h3>
-                    </div>
-                    <div>
-                        <button class="py-5 px-[45px] capitalize text-cyan-900 font-semibold text-lg bg-white rounded-[60px] hover:bg-primary-100 hover:text-white">support palestine</button>
+                        </form>
                     </div>
                 </div>
+            </div>
+        </section>
 
-            </div>    
-        </div>    
-    </section>    
-
-    <footer class="pb-[30px]">
-        <div class="container">
-            <div class="bg-primary-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]">
-                <div class="py-[40px] px-3 flex flex-col gap-y-[48px] sm:px-7 lg:px-20 xl:px-40 sm:py-14">
-                    <div class="flex flex-col gap-y-[22px] md:flex-row md:justify-between md:flex-wrap border-b border-neutral-400 pb-12 xl:pb-0">
-                        <div class="flex flex-col gap-y-[22px] md:basis-full items-center md:items-start xl:basis-[28%] xl:mr-8">
-                            <a href="../index.html">
-                                <img class="md:w-[240px] mb-1 xl:mb-3 xl:w-[150px]" src="../images/v1_logoname_banner_transp 3.png" alt="">
-                            </a>
-                            <p class="text-neutral-300 text[15px] text-center md:text-start mb-7 md:mb-5 xl:mb-9">ID Al. Solutions is a software development team that creates unique IT startups and implements top-notch outsource projects</p>
-                            <div class="flex gap-[22px] mb-7 md:mb-5 xl:mb-9">
-                                <a class="bg-white text-primary-100 rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-black hover:text-white text-5xl overflow-hidden" href=""><i class="fa-brands fa-telegram"></i></a>
-                                <a class="bg-transparent text-white  rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-white hover:text-black" href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="flex flex-col gap-2 items-center md:items-start md:basis-[28%] xl:basis-[16%]">
-                            <h3 class="uppercase text-xl text-white font-semibold mb-5">QUICK LINKS</h3>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="aboutus.html">about us</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="blog.html">blog post</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="projects.html">our project</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="#contact">contact us</a>
-                        </div>
-                        <div class="flex flex-col gap-2 items-center md:items-start md:basis-[33%]  xl:basis-[26%]">
-                            <h3 class="uppercase text-xl text-white font-semibold mb-5">IT SERVICES</h3>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">web application development</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">Custom software development</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">Machine Learning & AI</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="">software testing & QA</a>
-                        </div>
-                        <div class="flex flex-col gap-2 items-center md:items-start md:basis-[29%]  xl:basis-[20%]">
-                            <h3 class="uppercase text-xl text-white font-semibold mb-5">contact us</h3>
-                            <p class="text-[15px] text-neutral-300 ">Kyiv, Ukraine</p>
-                            <p class="text-[15px] text-neutral-300 ">+38 093 647 40 70</p>
-                            <a class="text-[15px] text-neutral-300 underline" href="">info@idalsolutions.com</a>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-5 lg:flex-row-reverse lg:justify-between items-center md:items-start">
-                        <div class="flex gap-[30px]">
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="tmcn.html">Terms & Conditions</a>
-                            <a class="capitalize text-[15px] text-neutral-300 hover:text-white" href="PP.html">Privacy Policy</a>
+        <section class="py-[15px] sm:py-[30px] lg:py-[40px]">
+            <div class="container">
+                <div
+                    class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                >
+                    <div
+                        class="py-[53px] px-3 flex flex-col gap-y-[20px] items-center xl:flex-row xl:justify-between xl:px-40"
+                    >
+                        <div
+                            class="flex flex-col gap-5 sm:flex-row items-center"
+                        >
+                            <img
+                                class="w-fit"
+                                src="../images/palestine_64.png"
+                                alt=""
+                            />
+                            <h3
+                                class="text-xl sm:text-[25px] font-bold text-center"
+                            >
+                                Support the brave people of Palestine
+                            </h3>
                         </div>
                         <div>
-                            <p class="capitalize text-[15px] text-neutral-300">© ID Al. Solutions | All Rights Reserved. 2021 - 2023</p>
+                            <button
+                                class="py-5 px-[45px] capitalize text-cyan-900 font-semibold text-lg bg-white rounded-[60px] hover:bg-primary-100 hover:text-white"
+                            >
+                                support palestine
+                            </button>
                         </div>
                     </div>
-                </div>    
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
 
+        <footer class="pb-[30px]">
+            <div class="container">
+                <div
+                    class="bg-primary-100 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                >
+                    <div
+                        class="py-[40px] px-3 flex flex-col gap-y-[48px] sm:px-7 lg:px-20 xl:px-40 sm:py-14"
+                    >
+                        <div
+                            class="flex flex-col gap-y-[22px] md:flex-row md:justify-between md:flex-wrap border-b border-neutral-400 pb-12 xl:pb-0"
+                        >
+                            <div
+                                class="flex flex-col gap-y-[22px] md:basis-full items-center md:items-start xl:basis-[28%] xl:mr-8"
+                            >
+                                <a href="../index.html">
+                                    <img
+                                        class="md:w-[240px] mb-1 xl:mb-3 xl:w-[150px]"
+                                        src="../images/v1_logoname_banner_transp 3.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <p
+                                    class="text-neutral-300 text[15px] text-center md:text-start mb-7 md:mb-5 xl:mb-9"
+                                >
+                                    ID Al. Solutions is a software development
+                                    team that creates unique IT startups and
+                                    implements top-notch outsource projects
+                                </p>
+                                <div
+                                    class="flex gap-[22px] mb-7 md:mb-5 xl:mb-9"
+                                >
+                                    <a
+                                        class="bg-white text-primary-100 rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-black hover:text-white text-5xl overflow-hidden"
+                                        href=""
+                                        ><i class="fa-brands fa-telegram"></i
+                                    ></a>
+                                    <a
+                                        class="bg-transparent text-white rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-white hover:text-black"
+                                        href=""
+                                        ><i class="fa-brands fa-linkedin-in"></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-2 items-center md:items-start md:basis-[28%] xl:basis-[16%]"
+                            >
+                                <h3
+                                    class="uppercase text-xl text-white font-semibold mb-5"
+                                >
+                                    QUICK LINKS
+                                </h3>
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="aboutus.html"
+                                    >about us</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="blog.html"
+                                    >blog post</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="projects.html"
+                                    >our project</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="#contact"
+                                    >contact us</a
+                                >
+                            </div>
+                            <div
+                                class="flex flex-col gap-2 items-center md:items-start md:basis-[33%] xl:basis-[26%]"
+                            >
+                                <h3
+                                    class="uppercase text-xl text-white font-semibold mb-5"
+                                >
+                                    IT SERVICES
+                                </h3>
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >web application development</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >Custom software development</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >Machine Learning & AI</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href=""
+                                    >software testing & QA</a
+                                >
+                            </div>
+                            <div
+                                class="flex flex-col gap-2 items-center md:items-start md:basis-[29%] xl:basis-[20%]"
+                            >
+                                <h3
+                                    class="uppercase text-xl text-white font-semibold mb-5"
+                                >
+                                    contact us
+                                </h3>
+                                <p class="text-[15px] text-neutral-300">
+                                    Kyiv, Ukraine
+                                </p>
+                                <p class="text-[15px] text-neutral-300">
+                                    +38 093 647 40 70
+                                </p>
+                                <a
+                                    class="text-[15px] text-neutral-300 underline"
+                                    href=""
+                                    >info@idalsolutions.com</a
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 lg:flex-row-reverse lg:justify-between items-center md:items-start"
+                        >
+                            <div class="flex gap-[30px]">
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="tmcn.html"
+                                    >Terms & Conditions</a
+                                >
+                                <a
+                                    class="capitalize text-[15px] text-neutral-300 hover:text-white"
+                                    href="PP.html"
+                                    >Privacy Policy</a
+                                >
+                            </div>
+                            <div>
+                                <p
+                                    class="capitalize text-[15px] text-neutral-300"
+                                >
+                                    © ID Al. Solutions | All Rights Reserved.
+                                    2021 - 2023
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <script src="../script.js"></script>
-</body>    
+        <script src="../script.js"></script>
+    </body>
 </html>

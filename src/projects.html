@@ -20,8 +20,16 @@
                             class="flex gap-3 items-center justify-between"
                             href="../index.html"
                         >
-                            <img src="../images/Vector.png" alt="" />
-                            <img src="../images/Clip path group.png" alt="" />
+                            <img
+                                src="../images/Vector.png"
+                                alt=""
+                                class="w-[45px] sm:w-auto"
+                            />
+                            <img
+                                src="../images/Clip path group.png"
+                                alt=""
+                                class="w-[140px] sm:w-auto"
+                            />
                         </a>
                     </div>
                     <div
@@ -30,21 +38,11 @@
                         <a class="hover:text-secondary-100" href="services.html"
                             >services</a
                         >
-                        <div class="block">
-                            <button
-                                class="dropdown-btn inline-block hover:text-secondary-100"
-                            >
-                                Products
-                                <i class="fa fa-caret-down ml-5"></i>
-                            </button>
-                            <div class="dropdown-container hidden">
-                                <a class="hover:text-secondary-100" href="#"
-                                    >Dr. GyneCom</a
-                                >
-                            </div>
-                        </div>
                         <a class="hover:text-secondary-100" href="aboutus.html"
                             >about us</a
+                        >
+                        <a class="hover:text-secondary-100" href="projects.html"
+                            >our project</a
                         >
                         <a
                             class="hover:text-secondary-100"
@@ -60,9 +58,11 @@
                                 contact us
                             </button>
                         </div>
-                        <div class="text-white text-3xl mt-5 sm:mt-3 lg:hidden">
+                        <button
+                            class="text-white text-3xl self-baseline mt-[7px] sm:mt-3 lg:hidden"
+                        >
                             <i class="fa-solid fa-bars"></i>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                     alt=""
                 />
                 <img
-                    class="hidden lg:block absolute right-[50%] -translate-x-[50%] left-[45%] w-44 -bottom-56 xl:w-52 xl:-bottom-[280px]"
+                    class="hidden lg:block absolute right-[50%] -translate-x-[50%] left-[45%] w-44 -bottom-56 xl:w-52 xl:-bottom-[300px]"
                     src="../images/Rectangle 91.png"
                     alt=""
                 />
@@ -383,7 +383,7 @@
                         </div>
                         <div class="w-fit xl:basis-[20%] xl:-translate-y-10">
                             <button
-                                class="w-full flex justify-center items-center sm:block sm:w-auto sm:px-8 py-3 capitalize font-medium text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200"
+                                class="px-8 py-3 capitalize font-medium text-lg bg-secondary-100 text-white border-2 rounded-3xl border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200"
                             >
                                 contact us
                             </button>
@@ -581,11 +581,12 @@
                                 </h1>
                             </div>
                             <div class="hidden lg:block">
-                                <button
+                                <a
+                                    href="services.html"
                                     class="px-7 py-3 capitalize font-medium text-lg rounded-[60px] bg-secondary-100 text-white border-2 border-solid border-secondary-100 hover:bg-secondary-200 hover:border-secondary-200"
                                 >
                                     View Services
-                                </button>
+                                </a>
                             </div>
                         </div>
                         <div
@@ -877,16 +878,17 @@
                 </div>
             </div>
         </section>
-        <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]" id="contact">
+        <section class="pt-[80px] md:pt-[120px] xl:pt-[180px]">
             <div class="container">
                 <div
                     class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
+                    id="contact"
                 >
                     <div
-                        class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between flex-wrap sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28"
+                        class="py-[40px] px-3 flex flex-col gap-y-[45px] xl:flex-row xl:justify-between sm:px-7 lg:px-20 xl:px-40 sm:py-14 lg:pb-24 xl:pb-28"
                     >
                         <div
-                            class="xl:basis-[40%] flex flex-col gap-[45px] xl:translate-y-10"
+                            class="xl:basis-[48%] flex flex-col gap-[45px] xl:translate-y-10"
                         >
                             <div>
                                 <p class="text-sm font-medium uppercase">
@@ -938,7 +940,7 @@
                             </div>
                         </div>
                         <form
-                            class="flex flex-col gap-y-[15px] xl:basis-[55%]"
+                            class="flex flex-col gap-y-[15px] xl:basis-[50%]"
                             action=""
                         >
                             <label
