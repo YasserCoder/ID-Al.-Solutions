@@ -730,6 +730,10 @@ video {
   left: 1.25rem;
 }
 
+.left-7{
+  left: 1.75rem;
+}
+
 .left-\[45\%\]{
   left: 45%;
 }
@@ -760,6 +764,10 @@ video {
 
 .right-6{
   right: 1.5rem;
+}
+
+.right-7{
+  right: 1.75rem;
 }
 
 .right-72{
@@ -794,36 +802,16 @@ video {
   top: 4rem;
 }
 
-.top-\[50\%\]{
-  top: 50%;
-}
-
-.right-2{
-  right: 0.5rem;
-}
-
-.top-3{
-  top: 0.75rem;
-}
-
-.top-5{
-  top: 1.25rem;
-}
-
-.right-7{
-  right: 1.75rem;
-}
-
 .top-7{
   top: 1.75rem;
 }
 
-.left-7{
-  left: 1.75rem;
-}
-
 .top-9{
   top: 2.25rem;
+}
+
+.top-\[50\%\]{
+  top: 50%;
 }
 
 .-z-50{
@@ -836,6 +824,16 @@ video {
 
 .z-50{
   z-index: 50;
+}
+
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .mx-\[15px\]{
@@ -871,31 +869,6 @@ video {
 .my-\[14px\]{
   margin-top: 14px;
   margin-bottom: 14px;
-}
-
-.mx-5{
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-20{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .mb-1{
@@ -940,6 +913,10 @@ video {
 
 .mb-7{
   margin-bottom: 1.75rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
 }
 
 .mb-\[10px\]{
@@ -1026,24 +1003,12 @@ video {
   margin-top: 60px;
 }
 
-.mt-\[7px\]{
-  margin-top: 7px;
-}
-
-.mt-\[50\%\]{
-  margin-top: 50%;
-}
-
-.mt-20{
-  margin-top: 5rem;
-}
-
-.mb-8{
-  margin-bottom: 2rem;
-}
-
 .mt-\[70px\]{
   margin-top: 70px;
+}
+
+.mt-\[7px\]{
+  margin-top: 7px;
 }
 
 .box-border{
@@ -1143,10 +1108,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-1{
-  height: 0.25rem;
 }
 
 .w-10{
@@ -1360,18 +1321,13 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-y-\[-50\%\]{
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-x-full{
-  --tw-translate-x: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .translate-x-full{
   --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[-50\%\]{
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2104,16 +2060,12 @@ video {
   padding-top: 100px;
 }
 
-.pt-\[80px\]{
-  padding-top: 80px;
-}
-
-.pt-\[50\%\]{
-  padding-top: 50%;
-}
-
 .pt-\[200px\]{
   padding-top: 200px;
+}
+
+.pt-\[80px\]{
+  padding-top: 80px;
 }
 
 .text-center{
@@ -2330,8 +2282,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.duration-300{
-  transition-duration: 300ms;
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .duration-500{
@@ -2588,6 +2542,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:shadow-md:hover{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .focus\:outline-cyan-700:focus{
   outline-color: #0e7490;
 }
@@ -2622,16 +2582,12 @@ video {
     right: 1.25rem;
   }
 
-  .sm\:top-5{
-    top: 1.25rem;
-  }
-
   .sm\:top-12{
     top: 3rem;
   }
 
-  .sm\:top-10{
-    top: 2.5rem;
+  .sm\:top-5{
+    top: 1.25rem;
   }
 
   .sm\:mx-12{
