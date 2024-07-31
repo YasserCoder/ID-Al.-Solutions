@@ -10,7 +10,7 @@
     </head>
     <body class="box-border font-main text-body bg-neutral-50">
         <header
-            class="bg-primary-700 md:rounded-b-[40px] rounded-b-[20px]"
+            class="bg-primary-700 relative overflow-hidden md:rounded-b-[40px] rounded-b-[20px]"
             id="header"
         >
             <div class="container">
@@ -60,9 +60,91 @@
                         </div>
                         <button
                             class="text-white text-3xl self-baseline mt-[7px] sm:mt-3 lg:hidden"
+                            onclick="handleOpenMenu(event)"
                         >
                             <i class="fa-solid fa-bars"></i>
                         </button>
+                        <div
+                            class="absolute h-full w-full z-50 bg-primary-100 top-0 translate-x-full left-0 text-white duration-500 lg:hidden"
+                        >
+                            <div class="container relative h-full w-full">
+                                <div class="absolute left-7 top-7">
+                                    <a
+                                        class="flex gap-3 items-center justify-between"
+                                        href="../index.html"
+                                    >
+                                        <img
+                                            src="../images/Vector.png"
+                                            alt=""
+                                            class="w-[45px] sm:w-auto"
+                                        />
+                                        <img
+                                            src="../images/Clip path group.png"
+                                            alt=""
+                                            class="w-[140px] sm:w-auto"
+                                        />
+                                    </a>
+                                </div>
+                                <button
+                                    class="absolute right-7 top-9 sm:top-12 text-2xl"
+                                    onclick="handleCloseMenu(event)"
+                                >
+                                    <i class="fa-solid fa-x"></i>
+                                </button>
+                                <div
+                                    class="flex flex-col gap-5 mx-10 pt-[200px]"
+                                >
+                                    <h2 class="text-2xl font-semibold">Menu</h2>
+                                    <ul class="mx-5 flex flex-col gap-2">
+                                        <li class="capitalize sm:text-lg">
+                                            <a
+                                                class="hover:text-secondary-100"
+                                                href="services.html"
+                                                >services</a
+                                            >
+                                        </li>
+                                        <li class="capitalize sm:text-lg">
+                                            <a
+                                                class="hover:text-secondary-100"
+                                                href="aboutus.html"
+                                                >about us</a
+                                            >
+                                        </li>
+                                        <li class="capitalize sm:text-lg">
+                                            <a
+                                                class="hover:text-secondary-100"
+                                                href="projects.html"
+                                                >our project</a
+                                            >
+                                        </li>
+                                        <li class="capitalize sm:text-lg">
+                                            <a
+                                                class="hover:text-secondary-100"
+                                                href="resources.html"
+                                                >resources</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div
+                                    class="bg-white h-[2px] w-full mt-[70px] mb-8"
+                                ></div>
+                                <div
+                                    class="flex justify-center items-center gap-4"
+                                >
+                                    <a
+                                        class="bg-white text-primary-100 rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-black hover:text-white text-5xl overflow-hidden"
+                                        href=""
+                                        ><i class="fa-brands fa-telegram"></i
+                                    ></a>
+                                    <a
+                                        class="bg-transparent text-white rounded-full border border-[#DBDBDB] w-11 h-11 flex justify-center items-center hover:bg-white hover:text-black"
+                                        href=""
+                                        ><i class="fa-brands fa-linkedin-in"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="flex gap-[15px] text-white text-base">
