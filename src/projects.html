@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="./../dist/output.css" />
         <!-- Font Awesome Library -->
         <link rel="stylesheet" href="./../dist/all.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
     </head>
     <body class="box-border font-main text-body bg-neutral-50">
         <header
@@ -494,149 +498,130 @@
                         <div
                             class="hidden sm:flex items-center justify-center gap-2 md:pr-7 xl:pr-40"
                         >
-                            <div
-                                class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"
+                            <button
+                                class="nav-prev w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center cursor-pointer bg-secondary-100 hover:shadow-md text-white disabled:text-stone-300 disabled:cursor-not-allowed disabled:bg-transparent"
                             >
                                 <i class="fa-solid fa-arrow-left"></i>
-                            </div>
-                            <div
-                                class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"
+                            </button>
+                            <button
+                                class="nav-next w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow-md cursor-pointer disabled:text-stone-300 disabled:cursor-not-allowed disabled:bg-transparent"
                             >
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
-                    <div class="flex justify-between">
-                        <div
-                            class="flex flex-col justify-center items-center gap-14 p-8 bg-white rounded-2xl shadow"
-                        >
-                            <img
-                                class="w-fit mx-auto"
-                                src="../images/web-content 1.png"
-                                alt=""
-                            />
-                            <div
-                                class="flex flex-col justify-center items-center gap-[16px] text-center"
-                            >
-                                <h2
-                                    class="text-xl font-semibold md:text-2xl capitalize"
+                    <div class="swiper thrdSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div
+                                    class="flex flex-col justify-center items-center gap-14 p-8 bg-white rounded-2xl shadow"
                                 >
-                                    feed
-                                </h2>
-                                <p class="text-base">
-                                    The news feed is a part of the social media
-                                    block that allows users to share important
-                                    updates and displays relevant posts based on
-                                    their interests.
-                                </p>
+                                    <img
+                                        class="w-fit mx-auto"
+                                        src="../images/web-content 1.png"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col justify-center items-center gap-[16px] text-center"
+                                    >
+                                        <h2
+                                            class="text-xl font-semibold md:text-2xl capitalize"
+                                        >
+                                            feed
+                                        </h2>
+                                        <p class="text-base">
+                                            The news feed is a part of the
+                                            social media block that allows users
+                                            to share important updates and
+                                            displays relevant posts based on
+                                            their interests.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div
+                                    class="flex flex-col justify-center items-center gap-14 p-8 bg-white rounded-2xl shadow"
+                                >
+                                    <img
+                                        class="w-fit mx-auto"
+                                        src="../images/navigation 1.png"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col justify-center items-center gap-[16px] text-center"
+                                    >
+                                        <h2
+                                            class="text-xl font-semibold md:text-2xl capitalize"
+                                        >
+                                            navigation
+                                        </h2>
+                                        <p class="text-base">
+                                            Platform navigation allows members
+                                            to flow from one page to another
+                                            without frustration by clicking on
+                                            convenient user interface
+                                            components.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div
+                                    class="flex flex-col justify-center items-center gap-14 p-8 bg-white rounded-2xl shadow"
+                                >
+                                    <img
+                                        class="w-fit mx-auto"
+                                        src="../images/paper 1.png"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col justify-center items-center gap-[16px] text-center"
+                                    >
+                                        <h2
+                                            class="text-xl font-semibold md:text-2xl capitalize"
+                                        >
+                                            search
+                                        </h2>
+                                        <p class="text-base">
+                                            The search function is made
+                                            available as a search box at the top
+                                            of the page. By typing in the
+                                            keywords, users can find relevant
+                                            content in different categories.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div
+                                    class="flex flex-col justify-center items-center gap-14 p-8 bg-white rounded-2xl shadow"
+                                >
+                                    <img
+                                        class="w-fit mx-auto"
+                                        src="../images/content 1.png"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="flex flex-col justify-center items-center gap-[16px] text-center"
+                                    >
+                                        <h2
+                                            class="text-xl font-semibold md:text-2xl capitalize"
+                                        >
+                                            articles
+                                        </h2>
+                                        <p class="text-base">
+                                            The section includes high-quality
+                                            content that is open to discussion
+                                            and can be shared on other social
+                                            media platforms. Tags help users
+                                            identify the main topic.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div
-                            class="hidden sm:flex flex-col justify-center items-center translate-x-[30px] gap-14 p-8 bg-gray-200 rounded-2xl shadow"
-                        >
-                            <img
-                                class="w-fit mx-auto"
-                                src="../images/navigation 1.png"
-                                alt=""
-                            />
-                            <div
-                                class="flex flex-col justify-center items-center gap-[16px] text-center"
-                            >
-                                <h2
-                                    class="text-xl font-semibold md:text-2xl capitalize"
-                                >
-                                    navigation
-                                </h2>
-                                <p class="text-base">
-                                    Platform navigation allows members to flow
-                                    from one page to another without frustration
-                                    by clicking on convenient user interface
-                                    components.
-                                </p>
-                            </div>
-                        </div>
-                        <div
-                            class="hidden lg:flex flex-col justify-center items-center translate-x-[60px] gap-14 p-8 bg-white rounded-2xl shadow"
-                        >
-                            <img
-                                class="w-fit mx-auto"
-                                src="../images/paper 1.png"
-                                alt=""
-                            />
-                            <div
-                                class="flex flex-col justify-center items-center gap-[16px] text-center"
-                            >
-                                <h2
-                                    class="text-xl font-semibold md:text-2xl capitalize"
-                                >
-                                    search
-                                </h2>
-                                <p class="text-base">
-                                    The search function is made available as a
-                                    search box at the top of the page. By typing
-                                    in the keywords, users can find relevant
-                                    content in different categories.
-                                </p>
-                            </div>
-                        </div>
-                        <div
-                            class="hidden xl:flex flex-col justify-center items-center translate-x-[90px] gap-14 p-8 bg-white rounded-2xl shadow"
-                        >
-                            <img
-                                class="w-fit mx-auto"
-                                src="../images/content 1.png"
-                                alt=""
-                            />
-                            <div
-                                class="flex flex-col justify-center items-center gap-[16px] text-center"
-                            >
-                                <h2
-                                    class="text-xl font-semibold md:text-2xl capitalize"
-                                >
-                                    articles
-                                </h2>
-                                <p class="text-base">
-                                    The section includes high-quality content
-                                    that is open to discussion and can be shared
-                                    on other social media platforms. Tags help
-                                    users identify the main topic.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="flex items-center justify-center gap-2 sm:hidden mx-auto"
-                    >
-                        <div
-                            class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"
-                        >
-                            <i class="fa-solid fa-arrow-left"></i>
-                        </div>
-                        <div
-                            class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"
-                        >
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div
-                        class="flex justify-center gap-1 mt-[10px] sm:mt-[25px]"
-                    >
-                        <div class="w-2 h-2 rounded-full bg-primary-100"></div>
-                        <div
-                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
-                        ></div>
-                        <div
-                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
-                        ></div>
-                        <div
-                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
-                        ></div>
-                        <div
-                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
-                        ></div>
-                        <div
-                            class="w-2 h-2 rounded-full bg-zinc-800 opacity-10"
-                        ></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -1299,6 +1284,58 @@
             </div>
         </footer>
 
+        <style>
+            .swiper {
+                width: 100%;
+                height: 100%;
+            }
+            .swiper-slide {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .swiper-wrapper {
+                display: flex;
+                width: fit-content;
+            }
+            .swiper-pagination {
+                position: static;
+                margin-top: 40px;
+            }
+            .swiper-pagination-bullet-active {
+                background-color: #217191;
+            }
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var thrdswiper = new Swiper(".thrdSwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                grabCursor: true,
+                initialSlide: 0,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".nav-next",
+                    prevEl: ".nav-prev",
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                        initialSlide: 1,
+                    },
+                    1280: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        initialSlide: 1,
+                    },
+                },
+                centeredSlides: true,
+            });
+        </script>
         <script src="../script.js"></script>
     </body>
 </html>

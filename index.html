@@ -243,7 +243,7 @@
                         <p class="text-neutral-900 mt-[10px] font-normal text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
                     </div>
                     <div class="flex flex-row gap-5 xl:basis-[60%]">
-                        <div class="bg-white rounded-[20px]">
+                        <div class="bg-white rounded-[20px]" id="client-1">
                             <div class="p-[30px] flex flex-col gap-[20px]">
                                 <div class="flex items-center gap-2">
                                     <img src="images/Ellipse 175.png" alt="">
@@ -255,7 +255,7 @@
                                 <p class="text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>   
                             </div>
                         </div>
-                        <div class="bg-slate-300 rounded-[20px] hidden lg:block bg-opacity-20">
+                        <div class="bg-slate-300 rounded-[20px] hidden lg:block bg-opacity-20" id="client-2">
                             <div class="p-[30px] flex flex-col gap-[20px]">
                                 <div class="flex items-center gap-2">
                                     <img src="images/Ellipse 175 (1).png" alt="">
@@ -269,8 +269,8 @@
                         </div>
                     </div>
                     <div class="flex items-center justify-center gap-2 xl:-translate-y-16">
-                        <div class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"><i class="fa-solid fa-arrow-left"></i></div>
-                        <div class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"><i class="fa-solid fa-arrow-right"></i></div>
+                        <button onclick="handlePrevBtn(event)" class="nav-prev w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center cursor-pointer bg-secondary-100 hover:shadow-md text-white disabled:text-stone-300 disabled:cursor-not-allowed disabled:bg-transparent" disabled><i class="fa-solid fa-arrow-left"></i></button>
+                        <button onclick="handleNextBtn(event)" class="nav-next w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow-md cursor-pointer disabled:text-stone-300 disabled:cursor-not-allowed disabled:bg-transparent"><i class="fa-solid fa-arrow-right"></i></button>
                     </div>    
                 </div>
             </div>
