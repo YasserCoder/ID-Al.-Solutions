@@ -33,9 +33,13 @@ This website is based on an open-source UI design. You can find the original des
 
 ## Screenshots
 
+Some screenshots from the website :
+
 <div>
-  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen1.png" alt="screen1" height="100%" width="auto">
-  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen2.png" alt="screen2" height="100%" width="auto">
+  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen1.png" alt="screen1" height="700px" width="auto">
+  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen2.png" alt="screen2" height="700px" width="auto">
+  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen3.png" alt="screen3" height="700px" width="auto">
+  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen4.png" alt="screen4" height="700px" width="auto">
 </div>
 
 ## Installation
