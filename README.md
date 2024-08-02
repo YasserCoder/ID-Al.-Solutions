@@ -33,9 +33,10 @@ This website is based on an open-source UI design. You can find the original des
 
 ## Screenshots
 
-![Screenshot 1](insert-screenshot-1-link)
-![Screenshot 2](insert-screenshot-2-link)
-![Screenshot 3](insert-screenshot-3-link)
+<div>
+  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen1.png" alt="screen1" height="100%" width="auto">
+  <img src="https://github.com/YasserCoder/ID-Al.-Solutions/blob/main/images/screen2.png" alt="screen2" height="100%" width="auto">
+</div>
 
 ## Installation
 
@@ -47,13 +48,11 @@ To get a local copy up and running, follow these simple steps:
     git clone https://github.com/your-username/id-ai-solutions.git
     ```
 
-````
-
 2. **Install dependencies**:
 
-```bash
-npm install
-````
+    ```bash
+    npm install
+    ```
 
 3. Open `index.html` in your browser
 

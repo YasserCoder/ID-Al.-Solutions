@@ -909,10 +909,12 @@
                     class="bg-slate-200 rounded-[15px] md:rounded-[30px] xl:rounded-[40px]"
                 >
                     <div
-                        class="py-[40px] px-3 flex flex-col xl:flex-row flex-wrap gap-[38px] md:gap-[45px] sm:px-7 lg:px-20 xl:pl-40 xl:pr-7 sm:py-14 lg:py-24"
+                        class="py-[40px] px-3 flex flex-col xl:flex-row flex-wrap gap-[38px] md:gap-[45px] sm:px-7 lg:px-20 xl:pl-40 xl:pr-7 sm:py-14 lg:pt-24 lg:pb-16"
                     >
                         <div class="w-fit max-width-[425px] xl:basis-[35%]">
-                            <p class="text-sm font-bold">Testimonials</p>
+                            <p class="text-sm font-bold uppercase">
+                                Testimonials
+                            </p>
                             <h1
                                 class="text-3xl my-[14px] capitalize sm:text-[35px] font-bold"
                             >
@@ -929,7 +931,7 @@
                             </p>
                         </div>
                         <div class="flex flex-row gap-5 xl:basis-[60%]">
-                            <div class="bg-white rounded-[20px]">
+                            <div class="bg-white rounded-[20px]" id="client-1">
                                 <div class="p-[30px] flex flex-col gap-[20px]">
                                     <div class="flex items-center gap-2">
                                         <img
@@ -959,6 +961,7 @@
                             </div>
                             <div
                                 class="bg-slate-300 rounded-[20px] hidden lg:block bg-opacity-20"
+                                id="client-2"
                             >
                                 <div class="p-[30px] flex flex-col gap-[20px]">
                                     <div class="flex items-center gap-2">
@@ -991,16 +994,19 @@
                         <div
                             class="flex items-center justify-center gap-2 xl:-translate-y-16"
                         >
-                            <div
-                                class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-stone-300 cursor-not-allowed"
+                            <button
+                                onclick="handlePrevBtn(event)"
+                                class="nav-prev w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center cursor-pointer bg-secondary-100 hover:shadow-md text-white disabled:text-stone-300 disabled:cursor-not-allowed disabled:bg-transparent"
+                                disabled
                             >
                                 <i class="fa-solid fa-arrow-left"></i>
-                            </div>
-                            <div
-                                class="w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow hover:cursor-pointer"
+                            </button>
+                            <button
+                                onclick="handleNextBtn(event)"
+                                class="nav-next w-10 h-10 rounded-full border border-stone-300 flex justify-center items-center text-white bg-secondary-100 hover:shadow-md cursor-pointer disabled:text-stone-300 disabled:cursor-not-allowed disabled:bg-transparent"
                             >
                                 <i class="fa-solid fa-arrow-right"></i>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
