@@ -64,6 +64,7 @@ To get a local copy up and running, follow these simple steps:
 
 For any questions or feedback, please reach out to:
 
--   **Developer** : Laissaoui YASSER
+-   **Developer** : Laissaoui Yasser
 -   **Email**: yasser.laiss01@gmail.com
 -   **GitHub**: [YasserCoder](https://github.com/YasserCoder)
+-   **LinkedIn**: [Yasser Laissaoui](https://linkedin.com/in/yasser-laissaoui)
